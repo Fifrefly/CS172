@@ -11,6 +11,7 @@ def generate_captcha(
     max_noisy_lines=5,
     noise_ratio=0.02,
     border_width=2,
+    min_digit_gap=4,  # 相邻数字外接框之间的最小间距
     seed=None,
 ):
     width, height = image_size
@@ -21,10 +22,10 @@ def generate_captcha(
     label = "".join(digits)
 
     image = Image.new("RGB", (width, height), (255, 255, 255))
-    slot_width = (width - 2 * pad_x) / num_digits  # 每个数字的槽宽度，保证数字之间不会重叠
 
-    for i, digit in enumerate(digits):
-
+    # 先渲染并旋转每个数字，再统一决定位置
+    tiles = []
+    for digit in digits:
         # 确定数字大小
         font_size = rng.randint(font_size_range[0], font_size_range[1])
         font = ImageFont.load_default(size=font_size)
@@ -41,19 +42,22 @@ def generate_captcha(
         if rotation_angle_range is not None:
             angle = rng.uniform(rotation_angle_range[0], rotation_angle_range[1])
             digit_img = digit_img.rotate(angle, expand=True)
-        w, h = digit_img.size
+        tiles.append(digit_img)
 
-        # 在槽内随机位置放置数字
-        slot_left = pad_x + i * slot_width
-        x_min = int(slot_left)
-        x_max = int(slot_left + slot_width - w)
+    # 水平位置：把剩余空白随机分成 num_digits+1 段（左边距、数字间隙、右边距），
+    # 因此数字可以挤在一起，也可以相隔很远，但保持从左到右的顺序且互不重叠
+    widths = [tile.size[0] for tile in tiles]
+    slack = max(0, (width - 2 * pad_x) - sum(widths) - (num_digits - 1) * min_digit_gap)
+    offsets = sorted(rng.uniform(0, slack) for _ in range(num_digits))
+    x = pad_x
+    for tile, offset in zip(tiles, offsets):
+        w, h = tile.size
+        # 竖直位置：下边界可贴近底部边框，与测试图一致（测试图数字整体偏下）
         y_min = pad_y
-        y_max = height - pad_y - h
-        x = rng.randint(x_min, max(x_min, x_max))
+        y_max = height - border_width - 1 - h
         y = rng.randint(y_min, max(y_min, y_max))
-
-        # 将数字贴到背景图上
-        image.paste(digit_img, (x, y), digit_img)
+        image.paste(tile, (int(x + offset), y), tile)
+        x += w + min_digit_gap
 
     # 画干扰线
     draw = ImageDraw.Draw(image)

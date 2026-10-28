@@ -38,3 +38,8 @@ dist/
 /src/
 /data/test_alphabet/
 /[Rr][Ee][Aa][Dd][Mm][Ee].[Mm][Dd]
+
+# Archived results from before the generator fix
+/_old_*/
+/slurm_logs/
+!/README.md
