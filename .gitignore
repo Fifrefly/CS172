@@ -1,3 +1,4 @@
 .DS_Store
 .vscode/
-CS172-CAPTCHA-public_assignment1/data/
+CS172-CAPTCHA-public_assignment1/data/*
+!CS172-CAPTCHA-public_assignment1/data/test/
