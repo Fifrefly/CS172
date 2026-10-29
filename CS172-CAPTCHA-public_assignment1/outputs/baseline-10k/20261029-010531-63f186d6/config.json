@@ -1,0 +1,23 @@
+{
+  "data_dir": "data/training100k.zip",
+  "num_images": 10000,
+  "val_data_dir": "data/validation.zip",
+  "output_dir": "outputs/baseline-10k",
+  "model": "resnet18",
+  "image_size": [
+    80,
+    260
+  ],
+  "epochs": 20,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "workers": 8,
+  "seed": 44,
+  "augment": true,
+  "tensorboard": true,
+  "resume": null,
+  "weights_only": false,
+  "run_id": "20261029-010531-63f186d6",
+  "run_dir": "/home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/baseline-10k/20261029-010531-63f186d6"
+}

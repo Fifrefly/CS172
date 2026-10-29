@@ -1,0 +1,23 @@
+device: cuda
+training images: 100000
+validation images: 5000
+epoch 01/20 | train loss 0.3076, digit 88.92%, image 80.92% | val loss 0.0078, digit 99.87%, image 99.36%
+epoch 02/20 | train loss 0.0127, digit 99.72%, image 98.62% | val loss 0.0249, digit 99.40%, image 97.00%
+epoch 03/20 | train loss 0.0099, digit 99.78%, image 98.94% | val loss 0.0027, digit 99.94%, image 99.72%
+epoch 04/20 | train loss 0.0080, digit 99.83%, image 99.16% | val loss 0.0011, digit 99.98%, image 99.90%
+epoch 05/20 | train loss 0.0064, digit 99.86%, image 99.32% | val loss 0.0109, digit 99.67%, image 98.36%
+epoch 06/20 | train loss 0.0055, digit 99.88%, image 99.42% | val loss 0.0118, digit 99.74%, image 98.70%
+epoch 07/20 | train loss 0.0052, digit 99.88%, image 99.43% | val loss 0.0005, digit 99.98%, image 99.92%
+epoch 08/20 | train loss 0.0037, digit 99.92%, image 99.60% | val loss 0.0005, digit 100.00%, image 99.98%
+epoch 09/20 | train loss 0.0027, digit 99.94%, image 99.71% | val loss 0.0005, digit 99.99%, image 99.96%
+epoch 10/20 | train loss 0.0022, digit 99.95%, image 99.77% | val loss 0.0001, digit 100.00%, image 100.00%
+epoch 11/20 | train loss 0.0019, digit 99.96%, image 99.79% | val loss 0.0002, digit 100.00%, image 99.98%
+epoch 12/20 | train loss 0.0014, digit 99.97%, image 99.84% | val loss 0.0002, digit 100.00%, image 99.98%
+epoch 13/20 | train loss 0.0010, digit 99.98%, image 99.89% | val loss 0.0001, digit 100.00%, image 99.98%
+epoch 14/20 | train loss 0.0010, digit 99.98%, image 99.89% | val loss 0.0005, digit 99.99%, image 99.94%
+epoch 15/20 | train loss 0.0008, digit 99.98%, image 99.91% | val loss 0.0001, digit 100.00%, image 100.00%
+epoch 16/20 | train loss 0.0005, digit 99.99%, image 99.94% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 17/20 | train loss 0.0005, digit 99.99%, image 99.94% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 18/20 | train loss 0.0003, digit 99.99%, image 99.96% | val loss 0.0000, digit 100.00%, image 99.98%
+epoch 19/20 | train loss 0.0003, digit 99.99%, image 99.97% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 20/20 | train loss 0.0002, digit 99.99%, image 99.97% | val loss 0.0000, digit 100.00%, image 99.98%

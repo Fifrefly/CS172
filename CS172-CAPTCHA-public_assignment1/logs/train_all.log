@@ -1,0 +1,1999 @@
+### START size seed 42 22:12:38
+== size-50000 (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 50000
+validation images: 5000
+epoch 01/20 | train loss 0.6264, digit 76.67%, image 60.24% | val loss 0.0350, digit 99.36%, image 96.84%
+epoch 02/20 | train loss 0.0218, digit 99.58%, image 97.93% | val loss 0.0093, digit 99.85%, image 99.24%
+epoch 03/20 | train loss 0.0142, digit 99.70%, image 98.52% | val loss 2.1484, digit 64.85%, image 11.98%
+epoch 04/20 | train loss 0.0116, digit 99.75%, image 98.83% | val loss 0.0021, digit 99.95%, image 99.76%
+epoch 05/20 | train loss 0.0086, digit 99.81%, image 99.04% | val loss 0.0053, digit 99.90%, image 99.52%
+epoch 06/20 | train loss 0.0087, digit 99.81%, image 99.05% | val loss 0.0040, digit 99.93%, image 99.66%
+epoch 07/20 | train loss 0.0072, digit 99.85%, image 99.25% | val loss 0.0009, digit 99.98%, image 99.92%
+epoch 08/20 | train loss 0.0060, digit 99.87%, image 99.39% | val loss 0.0014, digit 99.98%, image 99.90%
+epoch 09/20 | train loss 0.0060, digit 99.87%, image 99.40% | val loss 0.0025, digit 99.95%, image 99.76%
+epoch 10/20 | train loss 0.0031, digit 99.93%, image 99.65% | val loss 0.0004, digit 99.99%, image 99.96%
+epoch 11/20 | train loss 0.0033, digit 99.93%, image 99.63% | val loss 0.0010, digit 99.98%, image 99.90%
+epoch 12/20 | train loss 0.0029, digit 99.94%, image 99.70% | val loss 0.0004, digit 100.00%, image 99.98%
+epoch 13/20 | train loss 0.0014, digit 99.97%, image 99.86% | val loss 0.0001, digit 100.00%, image 100.00%
+epoch 14/20 | train loss 0.0011, digit 99.97%, image 99.87% | val loss 0.0001, digit 100.00%, image 100.00%
+epoch 15/20 | train loss 0.0011, digit 99.97%, image 99.86% | val loss 0.0001, digit 100.00%, image 100.00%
+epoch 16/20 | train loss 0.0010, digit 99.98%, image 99.89% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 17/20 | train loss 0.0007, digit 99.99%, image 99.93% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 18/20 | train loss 0.0005, digit 99.99%, image 99.94% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 19/20 | train loss 0.0006, digit 99.99%, image 99.93% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 20/20 | train loss 0.0003, digit 99.99%, image 99.96% | val loss 0.0000, digit 100.00%, image 100.00%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-50000/20261028-221242-a763eecc/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== size-20000 (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 20000
+validation images: 5000
+epoch 01/20 | train loss 1.3570, digit 48.47%, image 16.73% | val loss 0.3971, digit 89.26%, image 56.04%
+epoch 02/20 | train loss 0.0748, digit 98.87%, image 94.54% | val loss 0.1767, digit 94.61%, image 75.84%
+epoch 03/20 | train loss 0.0297, digit 99.47%, image 97.44% | val loss 0.0538, digit 98.54%, image 92.94%
+epoch 04/20 | train loss 0.0176, digit 99.68%, image 98.47% | val loss 0.0895, digit 97.50%, image 88.60%
+epoch 05/20 | train loss 0.0165, digit 99.65%, image 98.29% | val loss 0.0072, digit 99.87%, image 99.34%
+epoch 06/20 | train loss 0.0125, digit 99.73%, image 98.69% | val loss 0.0289, digit 99.28%, image 96.48%
+epoch 07/20 | train loss 0.0101, digit 99.78%, image 98.96% | val loss 0.0147, digit 99.62%, image 98.14%
+epoch 08/20 | train loss 0.0062, digit 99.86%, image 99.29% | val loss 0.0052, digit 99.90%, image 99.48%
+epoch 09/20 | train loss 0.0087, digit 99.81%, image 99.05% | val loss 0.0045, digit 99.88%, image 99.42%
+epoch 10/20 | train loss 0.0065, digit 99.85%, image 99.26% | val loss 0.0059, digit 99.82%, image 99.14%
+epoch 11/20 | train loss 0.0057, digit 99.87%, image 99.36% | val loss 0.0013, digit 99.99%, image 99.94%
+epoch 12/20 | train loss 0.0041, digit 99.91%, image 99.57% | val loss 0.0015, digit 99.97%, image 99.84%
+epoch 13/20 | train loss 0.0032, digit 99.93%, image 99.68% | val loss 0.0004, digit 99.99%, image 99.96%
+epoch 14/20 | train loss 0.0019, digit 99.96%, image 99.81% | val loss 0.0004, digit 99.99%, image 99.96%
+epoch 15/20 | train loss 0.0015, digit 99.96%, image 99.83% | val loss 0.0004, digit 99.99%, image 99.96%
+epoch 16/20 | train loss 0.0011, digit 99.98%, image 99.90% | val loss 0.0002, digit 100.00%, image 99.98%
+epoch 17/20 | train loss 0.0009, digit 99.98%, image 99.92% | val loss 0.0008, digit 99.99%, image 99.98%
+epoch 18/20 | train loss 0.0008, digit 99.98%, image 99.91% | val loss 0.0004, digit 99.99%, image 99.98%
+epoch 19/20 | train loss 0.0010, digit 99.98%, image 99.90% | val loss 0.0004, digit 99.99%, image 99.98%
+epoch 20/20 | train loss 0.0006, digit 99.98%, image 99.91% | val loss 0.0003, digit 99.99%, image 99.98%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-20000/20261028-222519-19c116b5/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== baseline-10k (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.9781, digit 21.86%, image 0.09% | val loss 2.1326, digit 28.07%, image 0.06%
+epoch 02/20 | train loss 0.8858, digit 64.60%, image 17.23% | val loss 0.3820, digit 89.64%, image 55.42%
+epoch 03/20 | train loss 0.1584, digit 97.28%, image 87.50% | val loss 0.0966, digit 97.95%, image 90.30%
+epoch 04/20 | train loss 0.0472, digit 99.33%, image 96.74% | val loss 0.0270, digit 99.63%, image 98.16%
+epoch 05/20 | train loss 0.0318, digit 99.46%, image 97.33% | val loss 0.0159, digit 99.73%, image 98.66%
+epoch 06/20 | train loss 0.0225, digit 99.60%, image 98.07% | val loss 0.0885, digit 97.08%, image 86.20%
+epoch 07/20 | train loss 0.0177, digit 99.69%, image 98.47% | val loss 0.0130, digit 99.80%, image 99.04%
+epoch 08/20 | train loss 0.0190, digit 99.61%, image 98.12% | val loss 0.0249, digit 99.38%, image 96.92%
+epoch 09/20 | train loss 0.0113, digit 99.80%, image 99.08% | val loss 0.0145, digit 99.66%, image 98.34%
+epoch 10/20 | train loss 0.0088, digit 99.83%, image 99.16% | val loss 0.0076, digit 99.87%, image 99.36%
+epoch 11/20 | train loss 0.0055, digit 99.92%, image 99.59% | val loss 0.0028, digit 99.96%, image 99.78%
+epoch 12/20 | train loss 0.0036, digit 99.95%, image 99.74% | val loss 0.0035, digit 99.95%, image 99.74%
+epoch 13/20 | train loss 0.0030, digit 99.95%, image 99.74% | val loss 0.0023, digit 99.96%, image 99.78%
+epoch 14/20 | train loss 0.0031, digit 99.96%, image 99.78% | val loss 0.0019, digit 99.97%, image 99.86%
+epoch 15/20 | train loss 0.0020, digit 99.96%, image 99.82% | val loss 0.0019, digit 99.96%, image 99.78%
+epoch 16/20 | train loss 0.0023, digit 99.96%, image 99.80% | val loss 0.0015, digit 99.98%, image 99.88%
+epoch 17/20 | train loss 0.0016, digit 99.98%, image 99.88% | val loss 0.0014, digit 99.97%, image 99.86%
+epoch 18/20 | train loss 0.0016, digit 99.97%, image 99.84% | val loss 0.0015, digit 99.98%, image 99.88%
+epoch 19/20 | train loss 0.0017, digit 99.97%, image 99.87% | val loss 0.0015, digit 99.97%, image 99.86%
+epoch 20/20 | train loss 0.0013, digit 99.99%, image 99.93% | val loss 0.0015, digit 99.97%, image 99.86%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/baseline-10k/20261028-223042-15a0247d/checkpoints/best.pt
+data/test/test0 digit 99.60%, image 98.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== size-5000 (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 5000
+validation images: 5000
+epoch 01/20 | train loss 2.2631, digit 13.38%, image 0.00% | val loss 2.4885, digit 13.88%, image 0.00%
+epoch 02/20 | train loss 1.7535, digit 29.45%, image 0.34% | val loss 1.3569, digit 43.51%, image 1.26%
+epoch 03/20 | train loss 1.0665, digit 57.36%, image 6.43% | val loss 1.0654, digit 57.59%, image 4.54%
+epoch 04/20 | train loss 0.4957, digit 85.17%, image 47.22% | val loss 0.2658, digit 93.81%, image 72.86%
+epoch 05/20 | train loss 0.1281, digit 98.47%, image 92.65% | val loss 0.1936, digit 94.99%, image 77.52%
+epoch 06/20 | train loss 0.0645, digit 99.21%, image 96.11% | val loss 0.0560, digit 99.26%, image 96.48%
+epoch 07/20 | train loss 0.0431, digit 99.49%, image 97.52% | val loss 0.0555, digit 99.22%, image 96.22%
+epoch 08/20 | train loss 0.0257, digit 99.71%, image 98.54% | val loss 0.0331, digit 99.42%, image 97.20%
+epoch 09/20 | train loss 0.0213, digit 99.72%, image 98.64% | val loss 0.0268, digit 99.53%, image 97.68%
+epoch 10/20 | train loss 0.0177, digit 99.76%, image 98.78% | val loss 0.0179, digit 99.76%, image 98.80%
+epoch 11/20 | train loss 0.0174, digit 99.77%, image 98.96% | val loss 0.0119, digit 99.88%, image 99.40%
+epoch 12/20 | train loss 0.0112, digit 99.86%, image 99.34% | val loss 0.0117, digit 99.80%, image 99.02%
+epoch 13/20 | train loss 0.0082, digit 99.90%, image 99.56% | val loss 0.0080, digit 99.91%, image 99.54%
+epoch 14/20 | train loss 0.0067, digit 99.92%, image 99.62% | val loss 0.0070, digit 99.92%, image 99.60%
+epoch 15/20 | train loss 0.0047, digit 99.99%, image 99.94% | val loss 0.0049, digit 99.95%, image 99.76%
+epoch 16/20 | train loss 0.0043, digit 99.97%, image 99.84% | val loss 0.0044, digit 99.96%, image 99.78%
+epoch 17/20 | train loss 0.0047, digit 99.98%, image 99.92% | val loss 0.0054, digit 99.94%, image 99.68%
+epoch 18/20 | train loss 0.0046, digit 99.96%, image 99.80% | val loss 0.0045, digit 99.94%, image 99.68%
+epoch 19/20 | train loss 0.0042, digit 99.97%, image 99.84% | val loss 0.0044, digit 99.95%, image 99.74%
+epoch 20/20 | train loss 0.0036, digit 99.99%, image 99.96% | val loss 0.0044, digit 99.94%, image 99.72%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-5000/20261028-223342-6f13a5bf/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== size-2000 (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 2000
+validation images: 5000
+epoch 01/20 | train loss 2.3389, digit 11.29%, image 0.00% | val loss 2.6330, digit 10.69%, image 0.00%
+epoch 02/20 | train loss 2.2216, digit 14.87%, image 0.00% | val loss 2.3100, digit 12.92%, image 0.00%
+epoch 03/20 | train loss 2.0349, digit 20.95%, image 0.00% | val loss 2.5323, digit 18.27%, image 0.00%
+epoch 04/20 | train loss 1.7818, digit 29.17%, image 0.30% | val loss 1.9007, digit 26.71%, image 0.14%
+epoch 05/20 | train loss 1.4971, digit 39.16%, image 1.06% | val loss 1.6248, digit 36.41%, image 0.42%
+epoch 06/20 | train loss 1.2298, digit 49.88%, image 3.33% | val loss 1.3681, digit 41.83%, image 1.18%
+epoch 07/20 | train loss 1.0134, digit 60.00%, image 7.81% | val loss 1.0103, digit 58.84%, image 6.38%
+epoch 08/20 | train loss 0.7204, digit 76.10%, image 23.49% | val loss 0.9827, digit 58.70%, image 4.40%
+epoch 09/20 | train loss 0.4797, digit 88.80%, image 54.49% | val loss 0.4727, digit 87.52%, image 49.50%
+epoch 10/20 | train loss 0.2973, digit 95.37%, image 78.88% | val loss 0.5760, digit 80.33%, image 32.56%
+epoch 11/20 | train loss 0.1846, digit 97.95%, image 90.27% | val loss 0.2289, digit 96.79%, image 84.82%
+epoch 12/20 | train loss 0.1251, digit 99.03%, image 95.21% | val loss 0.1475, digit 98.38%, image 92.16%
+epoch 13/20 | train loss 0.0907, digit 99.51%, image 97.53% | val loss 0.1073, digit 98.85%, image 94.34%
+epoch 14/20 | train loss 0.0714, digit 99.72%, image 98.69% | val loss 0.0832, digit 99.26%, image 96.36%
+epoch 15/20 | train loss 0.0606, digit 99.73%, image 98.64% | val loss 0.0700, digit 99.62%, image 98.16%
+epoch 16/20 | train loss 0.0542, digit 99.75%, image 98.74% | val loss 0.0712, digit 99.35%, image 96.80%
+epoch 17/20 | train loss 0.0502, digit 99.78%, image 98.89% | val loss 0.0573, digit 99.61%, image 98.14%
+epoch 18/20 | train loss 0.0447, digit 99.84%, image 99.19% | val loss 0.0550, digit 99.64%, image 98.24%
+epoch 19/20 | train loss 0.0455, digit 99.82%, image 99.19% | val loss 0.0525, digit 99.65%, image 98.30%
+epoch 20/20 | train loss 0.0435, digit 99.90%, image 99.50% | val loss 0.0524, digit 99.67%, image 98.38%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-2000/20261028-223532-f2b72cc1/checkpoints/best.pt
+data/test/test0 digit 99.20%, image 96.00%
+data/test/test1 digit 99.40%, image 97.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 98.20%, image 92.00%
+data/test/test4 digit 99.60%, image 98.00%
+== size-1000 (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 1000
+validation images: 5000
+epoch 01/20 | train loss 2.3774, digit 11.35%, image 0.00% | val loss 3.3805, digit 10.00%, image 0.00%
+epoch 02/20 | train loss 2.3184, digit 13.19%, image 0.00% | val loss 2.6761, digit 10.11%, image 0.00%
+epoch 03/20 | train loss 2.2406, digit 15.88%, image 0.00% | val loss 3.0567, digit 10.12%, image 0.00%
+epoch 04/20 | train loss 2.1392, digit 18.69%, image 0.10% | val loss 2.3642, digit 16.02%, image 0.00%
+epoch 05/20 | train loss 2.0117, digit 22.73%, image 0.10% | val loss 2.3287, digit 15.27%, image 0.00%
+epoch 06/20 | train loss 1.8973, digit 25.69%, image 0.00% | val loss 2.0771, digit 22.64%, image 0.06%
+epoch 07/20 | train loss 1.7685, digit 31.52%, image 0.10% | val loss 1.9892, digit 25.41%, image 0.02%
+epoch 08/20 | train loss 1.6287, digit 35.92%, image 0.52% | val loss 1.8453, digit 26.23%, image 0.08%
+epoch 09/20 | train loss 1.4909, digit 41.23%, image 1.04% | val loss 1.8029, digit 26.70%, image 0.10%
+epoch 10/20 | train loss 1.3465, digit 48.44%, image 2.19% | val loss 1.4624, digit 39.95%, image 0.92%
+epoch 11/20 | train loss 1.2331, digit 53.71%, image 4.79% | val loss 1.5903, digit 38.20%, image 0.76%
+epoch 12/20 | train loss 1.1277, digit 59.25%, image 6.46% | val loss 1.8502, digit 34.43%, image 0.46%
+epoch 13/20 | train loss 0.9963, digit 65.42%, image 10.21% | val loss 1.1861, digit 54.53%, image 3.74%
+epoch 14/20 | train loss 0.8564, digit 74.19%, image 21.67% | val loss 0.9829, digit 65.07%, image 10.04%
+epoch 15/20 | train loss 0.7562, digit 79.08%, image 28.02% | val loss 0.8852, digit 70.46%, image 15.16%
+epoch 16/20 | train loss 0.6799, digit 83.04%, image 38.33% | val loss 0.8298, digit 73.97%, image 20.00%
+epoch 17/20 | train loss 0.6272, digit 84.92%, image 43.02% | val loss 0.7894, digit 76.00%, image 23.38%
+epoch 18/20 | train loss 0.5943, digit 87.35%, image 50.83% | val loss 0.7568, digit 77.38%, image 26.44%
+epoch 19/20 | train loss 0.5634, digit 88.90%, image 55.31% | val loss 0.7375, digit 78.06%, image 27.06%
+epoch 20/20 | train loss 0.5543, digit 88.90%, image 54.69% | val loss 0.7306, digit 78.36%, image 27.34%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-1000/20261028-223638-520dc9f9/checkpoints/best.pt
+data/test/test0 digit 74.00%, image 16.00%
+data/test/test1 digit 73.20%, image 16.00%
+data/test/test2 digit 75.20%, image 18.00%
+data/test/test3 digit 74.40%, image 21.00%
+data/test/test4 digit 77.80%, image 27.00%
+### END size seed 42 22:37:28
+### START ablate seed 42 22:37:28
+== noaug-10k (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.7855, digit 28.93%, image 0.54% | val loss 1.4748, digit 36.34%, image 0.34%
+epoch 02/20 | train loss 0.6031, digit 78.73%, image 36.28% | val loss 0.3498, digit 87.46%, image 51.62%
+epoch 03/20 | train loss 0.0779, digit 99.23%, image 96.20% | val loss 0.0518, digit 99.22%, image 96.10%
+epoch 04/20 | train loss 0.0213, digit 99.84%, image 99.21% | val loss 0.0509, digit 98.89%, image 94.66%
+epoch 05/20 | train loss 0.0157, digit 99.85%, image 99.25% | val loss 0.0171, digit 99.68%, image 98.40%
+epoch 06/20 | train loss 0.0051, digit 99.97%, image 99.85% | val loss 0.0130, digit 99.79%, image 98.94%
+epoch 07/20 | train loss 0.0036, digit 99.99%, image 99.95% | val loss 0.0071, digit 99.84%, image 99.22%
+epoch 08/20 | train loss 0.0082, digit 99.87%, image 99.37% | val loss 0.1589, digit 95.20%, image 78.86%
+epoch 09/20 | train loss 0.0051, digit 99.95%, image 99.74% | val loss 0.0060, digit 99.84%, image 99.20%
+epoch 10/20 | train loss 0.0013, digit 100.00%, image 100.00% | val loss 0.0028, digit 99.94%, image 99.72%
+epoch 11/20 | train loss 0.0010, digit 100.00%, image 100.00% | val loss 0.0028, digit 99.94%, image 99.68%
+epoch 12/20 | train loss 0.0009, digit 100.00%, image 100.00% | val loss 0.0026, digit 99.94%, image 99.70%
+epoch 13/20 | train loss 0.0008, digit 100.00%, image 100.00% | val loss 0.0024, digit 99.94%, image 99.70%
+epoch 14/20 | train loss 0.0007, digit 100.00%, image 100.00% | val loss 0.0024, digit 99.95%, image 99.74%
+epoch 15/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0023, digit 99.95%, image 99.74%
+epoch 16/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0023, digit 99.94%, image 99.72%
+epoch 17/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0023, digit 99.95%, image 99.74%
+epoch 18/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0023, digit 99.95%, image 99.74%
+epoch 19/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0023, digit 99.94%, image 99.72%
+epoch 20/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0022, digit 99.94%, image 99.72%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/noaug-10k/20261028-223730-52a7a41b/checkpoints/best.pt
+data/test/test0 digit 99.60%, image 98.00%
+data/test/test1 digit 99.60%, image 98.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 99.80%, image 99.00%
+== wd-0 (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.9858, digit 21.87%, image 0.15% | val loss 1.6393, digit 33.62%, image 0.30%
+epoch 02/20 | train loss 0.9232, digit 62.97%, image 15.45% | val loss 0.6952, digit 73.61%, image 21.38%
+epoch 03/20 | train loss 0.1621, digit 97.26%, image 87.53% | val loss 0.0499, digit 99.45%, image 97.32%
+epoch 04/20 | train loss 0.0425, digit 99.47%, image 97.45% | val loss 0.2844, digit 89.84%, image 59.60%
+epoch 05/20 | train loss 0.0289, digit 99.57%, image 97.87% | val loss 0.0242, digit 99.66%, image 98.28%
+epoch 06/20 | train loss 0.0245, digit 99.58%, image 97.99% | val loss 0.0145, digit 99.76%, image 98.78%
+epoch 07/20 | train loss 0.0174, digit 99.71%, image 98.58% | val loss 0.0179, digit 99.65%, image 98.26%
+epoch 08/20 | train loss 0.0152, digit 99.72%, image 98.63% | val loss 0.0074, digit 99.88%, image 99.38%
+epoch 09/20 | train loss 0.0094, digit 99.83%, image 99.16% | val loss 0.0044, digit 99.94%, image 99.72%
+epoch 10/20 | train loss 0.0065, digit 99.90%, image 99.49% | val loss 0.0032, digit 99.97%, image 99.84%
+epoch 11/20 | train loss 0.0065, digit 99.88%, image 99.39% | val loss 0.0046, digit 99.90%, image 99.50%
+epoch 12/20 | train loss 0.0029, digit 99.96%, image 99.79% | val loss 0.0027, digit 99.95%, image 99.76%
+epoch 13/20 | train loss 0.0043, digit 99.92%, image 99.60% | val loss 0.0046, digit 99.92%, image 99.62%
+epoch 14/20 | train loss 0.0030, digit 99.95%, image 99.74% | val loss 0.0026, digit 99.93%, image 99.66%
+epoch 15/20 | train loss 0.0024, digit 99.96%, image 99.82% | val loss 0.0018, digit 99.98%, image 99.90%
+epoch 16/20 | train loss 0.0020, digit 99.97%, image 99.87% | val loss 0.0012, digit 99.98%, image 99.92%
+epoch 17/20 | train loss 0.0016, digit 99.98%, image 99.88% | val loss 0.0013, digit 99.98%, image 99.88%
+epoch 18/20 | train loss 0.0017, digit 99.97%, image 99.85% | val loss 0.0010, digit 99.99%, image 99.94%
+epoch 19/20 | train loss 0.0016, digit 99.98%, image 99.89% | val loss 0.0010, digit 99.98%, image 99.92%
+epoch 20/20 | train loss 0.0013, digit 99.98%, image 99.92% | val loss 0.0010, digit 99.99%, image 99.94%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/wd-0/20261028-224028-cc976f81/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== wd-0.01 (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.9678, digit 23.02%, image 0.14% | val loss 1.6623, digit 33.24%, image 0.16%
+epoch 02/20 | train loss 0.8193, digit 69.50%, image 24.33% | val loss 0.2846, digit 94.23%, image 74.16%
+epoch 03/20 | train loss 0.1179, digit 98.39%, image 92.43% | val loss 0.0548, digit 99.25%, image 96.30%
+epoch 04/20 | train loss 0.0402, digit 99.48%, image 97.47% | val loss 0.1810, digit 93.98%, image 72.98%
+epoch 05/20 | train loss 0.0246, digit 99.63%, image 98.19% | val loss 0.0227, digit 99.62%, image 98.14%
+epoch 06/20 | train loss 0.0226, digit 99.62%, image 98.19% | val loss 0.0140, digit 99.79%, image 98.98%
+epoch 07/20 | train loss 0.0197, digit 99.63%, image 98.20% | val loss 0.0142, digit 99.74%, image 98.72%
+epoch 08/20 | train loss 0.0117, digit 99.80%, image 99.00% | val loss 0.0119, digit 99.82%, image 99.10%
+epoch 09/20 | train loss 0.0107, digit 99.82%, image 99.14% | val loss 0.0064, digit 99.92%, image 99.60%
+epoch 10/20 | train loss 0.0083, digit 99.85%, image 99.25% | val loss 0.0062, digit 99.88%, image 99.42%
+epoch 11/20 | train loss 0.0054, digit 99.91%, image 99.53% | val loss 0.0046, digit 99.92%, image 99.62%
+epoch 12/20 | train loss 0.0032, digit 99.94%, image 99.70% | val loss 0.0024, digit 99.96%, image 99.78%
+epoch 13/20 | train loss 0.0045, digit 99.92%, image 99.63% | val loss 0.0023, digit 99.96%, image 99.82%
+epoch 14/20 | train loss 0.0028, digit 99.95%, image 99.77% | val loss 0.0022, digit 99.95%, image 99.76%
+epoch 15/20 | train loss 0.0025, digit 99.95%, image 99.75% | val loss 0.0022, digit 99.95%, image 99.74%
+epoch 16/20 | train loss 0.0029, digit 99.94%, image 99.71% | val loss 0.0025, digit 99.95%, image 99.74%
+epoch 17/20 | train loss 0.0019, digit 99.97%, image 99.86% | val loss 0.0019, digit 99.96%, image 99.82%
+epoch 18/20 | train loss 0.0020, digit 99.97%, image 99.85% | val loss 0.0017, digit 99.96%, image 99.82%
+epoch 19/20 | train loss 0.0021, digit 99.98%, image 99.89% | val loss 0.0014, digit 99.96%, image 99.82%
+epoch 20/20 | train loss 0.0015, digit 99.98%, image 99.88% | val loss 0.0014, digit 99.97%, image 99.84%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/wd-0.01/20261028-224328-09fd61d3/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== wd-0.1 (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.9841, digit 21.77%, image 0.06% | val loss 1.7200, digit 32.61%, image 0.20%
+epoch 02/20 | train loss 0.8732, digit 65.39%, image 20.58% | val loss 0.7519, digit 69.81%, image 12.16%
+epoch 03/20 | train loss 0.1341, digit 98.25%, image 91.68% | val loss 0.0750, digit 98.96%, image 94.92%
+epoch 04/20 | train loss 0.0417, digit 99.51%, image 97.58% | val loss 0.2010, digit 93.38%, image 70.88%
+epoch 05/20 | train loss 0.0336, digit 99.54%, image 97.77% | val loss 0.0119, digit 99.88%, image 99.38%
+epoch 06/20 | train loss 0.0253, digit 99.60%, image 98.16% | val loss 0.0228, digit 99.72%, image 98.60%
+epoch 07/20 | train loss 0.0180, digit 99.72%, image 98.64% | val loss 0.0159, digit 99.77%, image 98.86%
+epoch 08/20 | train loss 0.0161, digit 99.75%, image 98.81% | val loss 0.0081, digit 99.90%, image 99.52%
+epoch 09/20 | train loss 0.0123, digit 99.79%, image 98.98% | val loss 0.0118, digit 99.81%, image 99.04%
+epoch 10/20 | train loss 0.0091, digit 99.85%, image 99.29% | val loss 0.0132, digit 99.78%, image 98.90%
+epoch 11/20 | train loss 0.0090, digit 99.86%, image 99.30% | val loss 0.0054, digit 99.92%, image 99.62%
+epoch 12/20 | train loss 0.0050, digit 99.92%, image 99.62% | val loss 0.0054, digit 99.90%, image 99.50%
+epoch 13/20 | train loss 0.0052, digit 99.91%, image 99.55% | val loss 0.0029, digit 99.98%, image 99.88%
+epoch 14/20 | train loss 0.0037, digit 99.96%, image 99.78% | val loss 0.0031, digit 99.94%, image 99.72%
+epoch 15/20 | train loss 0.0029, digit 99.96%, image 99.79% | val loss 0.0022, digit 99.98%, image 99.88%
+epoch 16/20 | train loss 0.0027, digit 99.97%, image 99.85% | val loss 0.0017, digit 99.99%, image 99.94%
+epoch 17/20 | train loss 0.0021, digit 99.98%, image 99.89% | val loss 0.0017, digit 99.98%, image 99.92%
+epoch 18/20 | train loss 0.0022, digit 99.97%, image 99.87% | val loss 0.0017, digit 99.98%, image 99.90%
+epoch 19/20 | train loss 0.0020, digit 99.99%, image 99.93% | val loss 0.0014, digit 99.99%, image 99.96%
+epoch 20/20 | train loss 0.0017, digit 99.98%, image 99.92% | val loss 0.0014, digit 99.99%, image 99.96%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/wd-0.1/20261028-224630-48a96bce/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== lr-0.0001 (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.2921, digit 11.93%, image 0.02% | val loss 2.2548, digit 13.71%, image 0.00%
+epoch 02/20 | train loss 2.0850, digit 19.87%, image 0.03% | val loss 1.9434, digit 24.03%, image 0.02%
+epoch 03/20 | train loss 1.7684, digit 30.89%, image 0.31% | val loss 1.6152, digit 36.28%, image 0.44%
+epoch 04/20 | train loss 1.3383, digit 52.60%, image 3.05% | val loss 1.0392, digit 67.38%, image 10.48%
+epoch 05/20 | train loss 0.8616, digit 77.00%, image 25.30% | val loss 0.6367, digit 86.74%, image 47.54%
+epoch 06/20 | train loss 0.4977, digit 91.55%, image 63.97% | val loss 0.3666, digit 94.49%, image 75.38%
+epoch 07/20 | train loss 0.2898, digit 96.58%, image 83.93% | val loss 0.1898, digit 98.53%, image 92.98%
+epoch 08/20 | train loss 0.1843, digit 98.41%, image 92.46% | val loss 0.1356, digit 99.12%, image 95.72%
+epoch 09/20 | train loss 0.1286, digit 99.10%, image 95.65% | val loss 0.0930, digit 99.37%, image 96.90%
+epoch 10/20 | train loss 0.0988, digit 99.30%, image 96.64% | val loss 0.0753, digit 99.61%, image 98.08%
+epoch 11/20 | train loss 0.0796, digit 99.48%, image 97.42% | val loss 0.0646, digit 99.59%, image 98.00%
+epoch 12/20 | train loss 0.0663, digit 99.58%, image 97.92% | val loss 0.0560, digit 99.69%, image 98.50%
+epoch 13/20 | train loss 0.0574, digit 99.64%, image 98.20% | val loss 0.0467, digit 99.76%, image 98.80%
+epoch 14/20 | train loss 0.0514, digit 99.67%, image 98.39% | val loss 0.0421, digit 99.76%, image 98.84%
+epoch 15/20 | train loss 0.0468, digit 99.73%, image 98.65% | val loss 0.0375, digit 99.78%, image 98.92%
+epoch 16/20 | train loss 0.0441, digit 99.73%, image 98.69% | val loss 0.0347, digit 99.80%, image 99.02%
+epoch 17/20 | train loss 0.0417, digit 99.73%, image 98.68% | val loss 0.0346, digit 99.80%, image 99.04%
+epoch 18/20 | train loss 0.0399, digit 99.76%, image 98.80% | val loss 0.0340, digit 99.80%, image 99.02%
+epoch 19/20 | train loss 0.0392, digit 99.77%, image 98.83% | val loss 0.0332, digit 99.81%, image 99.06%
+epoch 20/20 | train loss 0.0388, digit 99.77%, image 98.84% | val loss 0.0329, digit 99.81%, image 99.08%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/lr-0.0001/20261028-224931-435b7951/checkpoints/best.pt
+data/test/test0 digit 99.40%, image 97.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 99.40%, image 97.00%
+data/test/test4 digit 99.60%, image 98.00%
+== lr-0.0003 (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.1655, digit 16.59%, image 0.01% | val loss 1.9025, digit 23.89%, image 0.08%
+epoch 02/20 | train loss 1.4290, digit 44.46%, image 2.88% | val loss 1.0964, digit 60.22%, image 6.32%
+epoch 03/20 | train loss 0.5130, digit 88.04%, image 54.84% | val loss 0.2078, digit 98.13%, image 90.98%
+epoch 04/20 | train loss 0.1344, digit 98.63%, image 93.39% | val loss 0.0751, digit 99.48%, image 97.44%
+epoch 05/20 | train loss 0.0598, digit 99.46%, image 97.32% | val loss 0.0444, digit 99.56%, image 97.88%
+epoch 06/20 | train loss 0.0408, digit 99.55%, image 97.80% | val loss 0.0372, digit 99.54%, image 97.70%
+epoch 07/20 | train loss 0.0279, digit 99.73%, image 98.68% | val loss 0.0265, digit 99.67%, image 98.36%
+epoch 08/20 | train loss 0.0224, digit 99.72%, image 98.66% | val loss 0.0162, digit 99.83%, image 99.18%
+epoch 09/20 | train loss 0.0173, digit 99.81%, image 99.04% | val loss 0.0114, digit 99.88%, image 99.42%
+epoch 10/20 | train loss 0.0129, digit 99.87%, image 99.35% | val loss 0.0452, digit 99.03%, image 95.20%
+epoch 11/20 | train loss 0.0122, digit 99.84%, image 99.22% | val loss 0.0124, digit 99.84%, image 99.20%
+epoch 12/20 | train loss 0.0098, digit 99.89%, image 99.46% | val loss 0.0071, digit 99.94%, image 99.72%
+epoch 13/20 | train loss 0.0083, digit 99.90%, image 99.54% | val loss 0.0062, digit 99.96%, image 99.80%
+epoch 14/20 | train loss 0.0067, digit 99.94%, image 99.68% | val loss 0.0051, digit 99.97%, image 99.84%
+epoch 15/20 | train loss 0.0058, digit 99.94%, image 99.71% | val loss 0.0047, digit 99.97%, image 99.84%
+epoch 16/20 | train loss 0.0059, digit 99.94%, image 99.69% | val loss 0.0045, digit 99.97%, image 99.84%
+epoch 17/20 | train loss 0.0052, digit 99.94%, image 99.69% | val loss 0.0043, digit 99.96%, image 99.80%
+epoch 18/20 | train loss 0.0045, digit 99.97%, image 99.84% | val loss 0.0040, digit 99.96%, image 99.78%
+epoch 19/20 | train loss 0.0045, digit 99.96%, image 99.79% | val loss 0.0039, digit 99.96%, image 99.82%
+epoch 20/20 | train loss 0.0042, digit 99.97%, image 99.84% | val loss 0.0039, digit 99.97%, image 99.84%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/lr-0.0003/20261028-225234-c5b201e9/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 99.80%, image 99.00%
+== lr-0.003 (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.0675, digit 19.30%, image 0.09% | val loss 1.5083, digit 35.88%, image 0.40%
+epoch 02/20 | train loss 0.9141, digit 60.22%, image 11.15% | val loss 0.7161, digit 72.96%, image 17.64%
+epoch 03/20 | train loss 0.2111, digit 93.89%, image 74.48% | val loss 0.1890, digit 94.47%, image 75.20%
+epoch 04/20 | train loss 0.0520, digit 98.99%, image 95.08% | val loss 0.0771, digit 97.79%, image 89.38%
+epoch 05/20 | train loss 0.0308, digit 99.41%, image 97.14% | val loss 0.0219, digit 99.49%, image 97.46%
+epoch 06/20 | train loss 0.0246, digit 99.50%, image 97.59% | val loss 0.0143, digit 99.73%, image 98.70%
+epoch 07/20 | train loss 0.0179, digit 99.61%, image 98.16% | val loss 0.0206, digit 99.54%, image 97.92%
+epoch 08/20 | train loss 0.0174, digit 99.65%, image 98.32% | val loss 0.0071, digit 99.88%, image 99.38%
+epoch 09/20 | train loss 0.0129, digit 99.74%, image 98.73% | val loss 0.0110, digit 99.82%, image 99.10%
+epoch 10/20 | train loss 0.0100, digit 99.79%, image 98.96% | val loss 0.0055, digit 99.88%, image 99.38%
+epoch 11/20 | train loss 0.0076, digit 99.85%, image 99.25% | val loss 0.0028, digit 99.93%, image 99.70%
+epoch 12/20 | train loss 0.0043, digit 99.91%, image 99.56% | val loss 0.0027, digit 99.96%, image 99.82%
+epoch 13/20 | train loss 0.0038, digit 99.91%, image 99.55% | val loss 0.0026, digit 99.96%, image 99.78%
+epoch 14/20 | train loss 0.0038, digit 99.92%, image 99.61% | val loss 0.0015, digit 99.96%, image 99.82%
+epoch 15/20 | train loss 0.0023, digit 99.95%, image 99.75% | val loss 0.0013, digit 99.98%, image 99.92%
+epoch 16/20 | train loss 0.0014, digit 99.98%, image 99.88% | val loss 0.0009, digit 99.98%, image 99.92%
+epoch 17/20 | train loss 0.0015, digit 99.96%, image 99.81% | val loss 0.0006, digit 99.98%, image 99.92%
+epoch 18/20 | train loss 0.0013, digit 99.96%, image 99.82% | val loss 0.0005, digit 99.99%, image 99.96%
+epoch 19/20 | train loss 0.0011, digit 99.98%, image 99.91% | val loss 0.0005, digit 99.99%, image 99.96%
+epoch 20/20 | train loss 0.0009, digit 99.98%, image 99.91% | val loss 0.0005, digit 99.99%, image 99.96%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/lr-0.003/20261028-225535-fcd9b473/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 99.80%, image 99.00%
+data/test/test4 digit 100.00%, image 100.00%
+== lr-0.01 (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.3705, digit 10.60%, image 0.00% | val loss 2.2966, digit 11.35%, image 0.00%
+epoch 02/20 | train loss 2.2458, digit 13.98%, image 0.00% | val loss 2.2817, digit 14.02%, image 0.00%
+epoch 03/20 | train loss 1.5307, digit 34.63%, image 0.97% | val loss 1.2340, digit 43.60%, image 1.52%
+epoch 04/20 | train loss 0.6303, digit 74.02%, image 25.17% | val loss 0.6919, digit 72.57%, image 20.72%
+epoch 05/20 | train loss 0.1770, digit 94.58%, image 76.40% | val loss 0.1910, digit 93.79%, image 72.32%
+epoch 06/20 | train loss 0.0645, digit 98.34%, image 92.11% | val loss 0.0539, digit 98.60%, image 93.24%
+epoch 07/20 | train loss 0.0531, digit 98.64%, image 93.53% | val loss 0.0456, digit 98.80%, image 94.38%
+epoch 08/20 | train loss 0.0294, digit 99.34%, image 96.82% | val loss 0.0313, digit 99.30%, image 96.54%
+epoch 09/20 | train loss 0.0179, digit 99.56%, image 97.85% | val loss 0.0097, digit 99.80%, image 99.00%
+epoch 10/20 | train loss 0.0107, digit 99.76%, image 98.79% | val loss 0.0067, digit 99.89%, image 99.46%
+epoch 11/20 | train loss 0.0092, digit 99.80%, image 98.99% | val loss 0.0087, digit 99.83%, image 99.16%
+epoch 12/20 | train loss 0.0076, digit 99.82%, image 99.12% | val loss 0.0052, digit 99.90%, image 99.50%
+epoch 13/20 | train loss 0.0054, digit 99.88%, image 99.43% | val loss 0.0035, digit 99.92%, image 99.58%
+epoch 14/20 | train loss 0.0052, digit 99.88%, image 99.38% | val loss 0.0038, digit 99.92%, image 99.58%
+epoch 15/20 | train loss 0.0028, digit 99.93%, image 99.66% | val loss 0.0023, digit 99.94%, image 99.70%
+epoch 16/20 | train loss 0.0025, digit 99.94%, image 99.69% | val loss 0.0028, digit 99.94%, image 99.70%
+epoch 17/20 | train loss 0.0028, digit 99.94%, image 99.69% | val loss 0.0018, digit 99.97%, image 99.84%
+epoch 18/20 | train loss 0.0019, digit 99.96%, image 99.82% | val loss 0.0018, digit 99.96%, image 99.78%
+epoch 19/20 | train loss 0.0016, digit 99.97%, image 99.83% | val loss 0.0018, digit 99.95%, image 99.74%
+epoch 20/20 | train loss 0.0016, digit 99.96%, image 99.79% | val loss 0.0018, digit 99.95%, image 99.76%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/lr-0.01/20261028-225835-fc554cd1/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 99.80%, image 99.00%
+data/test/test4 digit 100.00%, image 100.00%
+== resnet34-10k (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.1377, digit 17.49%, image 0.04% | val loss 1.6735, digit 33.07%, image 0.18%
+epoch 02/20 | train loss 1.0409, digit 55.04%, image 7.28% | val loss 0.9007, digit 61.95%, image 7.22%
+epoch 03/20 | train loss 0.3022, digit 91.18%, image 65.38% | val loss 0.3155, digit 88.75%, image 56.48%
+epoch 04/20 | train loss 0.0735, digit 98.66%, image 93.57% | val loss 0.4631, digit 88.06%, image 52.96%
+epoch 05/20 | train loss 0.0479, digit 99.08%, image 95.52% | val loss 0.0615, digit 98.16%, image 91.22%
+epoch 06/20 | train loss 0.0336, digit 99.34%, image 96.83% | val loss 0.0484, digit 98.96%, image 94.88%
+epoch 07/20 | train loss 0.0224, digit 99.55%, image 97.84% | val loss 0.0102, digit 99.84%, image 99.20%
+epoch 08/20 | train loss 0.0149, digit 99.70%, image 98.52% | val loss 0.0060, digit 99.92%, image 99.58%
+epoch 09/20 | train loss 0.0147, digit 99.69%, image 98.51% | val loss 0.0143, digit 99.67%, image 98.40%
+epoch 10/20 | train loss 0.0098, digit 99.83%, image 99.19% | val loss 0.0115, digit 99.72%, image 98.66%
+epoch 11/20 | train loss 0.0089, digit 99.84%, image 99.23% | val loss 0.0028, digit 99.95%, image 99.76%
+epoch 12/20 | train loss 0.0060, digit 99.89%, image 99.44% | val loss 0.0019, digit 99.97%, image 99.84%
+epoch 13/20 | train loss 0.0065, digit 99.87%, image 99.40% | val loss 0.0018, digit 99.94%, image 99.72%
+epoch 14/20 | train loss 0.0040, digit 99.92%, image 99.62% | val loss 0.0019, digit 99.96%, image 99.82%
+epoch 15/20 | train loss 0.0029, digit 99.94%, image 99.72% | val loss 0.0013, digit 99.97%, image 99.84%
+epoch 16/20 | train loss 0.0027, digit 99.95%, image 99.76% | val loss 0.0010, digit 99.98%, image 99.90%
+epoch 17/20 | train loss 0.0021, digit 99.97%, image 99.87% | val loss 0.0007, digit 99.99%, image 99.94%
+epoch 18/20 | train loss 0.0019, digit 99.97%, image 99.84% | val loss 0.0008, digit 99.99%, image 99.94%
+epoch 19/20 | train loss 0.0013, digit 99.99%, image 99.93% | val loss 0.0008, digit 99.99%, image 99.96%
+epoch 20/20 | train loss 0.0022, digit 99.96%, image 99.83% | val loss 0.0007, digit 99.99%, image 99.96%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/resnet34-10k/20261028-230135-4223549f/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== captcha18-10k (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.8472, digit 10.26%, image 0.00% | val loss 5.8399, digit 10.14%, image 0.00%
+epoch 02/20 | train loss 2.3231, digit 10.54%, image 0.00% | val loss 2.3043, digit 11.81%, image 0.00%
+epoch 03/20 | train loss 1.9095, digit 23.94%, image 0.29% | val loss 3.3988, digit 15.02%, image 0.00%
+epoch 04/20 | train loss 0.9642, digit 62.59%, image 18.00% | val loss 0.6195, digit 79.33%, image 35.20%
+epoch 05/20 | train loss 0.2936, digit 90.99%, image 67.43% | val loss 0.6128, digit 84.33%, image 48.62%
+epoch 06/20 | train loss 0.1180, digit 96.58%, image 85.40% | val loss 1.1601, digit 74.08%, image 25.10%
+epoch 07/20 | train loss 0.0536, digit 98.50%, image 93.23% | val loss 0.0217, digit 99.44%, image 97.40%
+epoch 08/20 | train loss 0.0324, digit 99.10%, image 95.75% | val loss 0.0449, digit 98.77%, image 94.42%
+epoch 09/20 | train loss 0.0253, digit 99.27%, image 96.51% | val loss 0.0171, digit 99.52%, image 97.64%
+epoch 10/20 | train loss 0.0189, digit 99.46%, image 97.37% | val loss 0.0222, digit 99.40%, image 97.04%
+epoch 11/20 | train loss 0.0100, digit 99.77%, image 98.87% | val loss 0.0082, digit 99.77%, image 98.90%
+epoch 12/20 | train loss 0.0089, digit 99.78%, image 98.94% | val loss 0.0434, digit 98.93%, image 94.82%
+epoch 13/20 | train loss 0.0057, digit 99.85%, image 99.26% | val loss 0.0050, digit 99.89%, image 99.46%
+epoch 14/20 | train loss 0.0051, digit 99.89%, image 99.45% | val loss 0.0035, digit 99.91%, image 99.56%
+epoch 15/20 | train loss 0.0026, digit 99.93%, image 99.67% | val loss 0.0029, digit 99.91%, image 99.60%
+epoch 16/20 | train loss 0.0029, digit 99.94%, image 99.68% | val loss 0.0020, digit 99.94%, image 99.72%
+epoch 17/20 | train loss 0.0016, digit 99.96%, image 99.81% | val loss 0.0023, digit 99.94%, image 99.70%
+epoch 18/20 | train loss 0.0025, digit 99.94%, image 99.73% | val loss 0.0017, digit 99.94%, image 99.72%
+epoch 19/20 | train loss 0.0016, digit 99.96%, image 99.82% | val loss 0.0022, digit 99.94%, image 99.70%
+epoch 20/20 | train loss 0.0019, digit 99.95%, image 99.77% | val loss 0.0021, digit 99.94%, image 99.68%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/captcha18-10k/20261028-230549-0754d245/checkpoints/best.pt
+data/test/test0 digit 99.40%, image 97.00%
+data/test/test1 digit 99.60%, image 98.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 99.80%, image 99.00%
+data/test/test4 digit 99.80%, image 99.00%
+== captcha34-10k (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 3.0007, digit 10.08%, image 0.00% | val loss 2.3174, digit 10.10%, image 0.00%
+epoch 02/20 | train loss 2.3231, digit 10.07%, image 0.00% | val loss 2.3061, digit 9.81%, image 0.00%
+epoch 03/20 | train loss 2.3094, digit 9.99%, image 0.00% | val loss 2.3042, digit 10.14%, image 0.00%
+epoch 04/20 | train loss 2.3057, digit 10.38%, image 0.00% | val loss 2.3031, digit 10.46%, image 0.00%
+epoch 05/20 | train loss 2.3065, digit 10.37%, image 0.00% | val loss 2.3220, digit 9.95%, image 0.00%
+epoch 06/20 | train loss 2.2959, digit 11.26%, image 0.01% | val loss 2.3015, digit 11.60%, image 0.00%
+epoch 07/20 | train loss 1.8002, digit 27.31%, image 0.27% | val loss 1.4191, digit 41.60%, image 1.10%
+epoch 08/20 | train loss 0.9023, digit 64.26%, image 17.52% | val loss 0.6045, digit 78.10%, image 29.74%
+epoch 09/20 | train loss 0.2312, digit 92.91%, image 72.51% | val loss 0.1810, digit 95.14%, image 79.32%
+epoch 10/20 | train loss 0.0724, digit 98.08%, image 91.28% | val loss 0.0325, digit 99.15%, image 96.10%
+epoch 11/20 | train loss 0.0344, digit 99.13%, image 95.87% | val loss 0.0192, digit 99.49%, image 97.64%
+epoch 12/20 | train loss 0.0217, digit 99.44%, image 97.35% | val loss 0.0364, digit 99.04%, image 95.40%
+epoch 13/20 | train loss 0.0170, digit 99.58%, image 98.01% | val loss 0.0271, digit 99.30%, image 96.58%
+epoch 14/20 | train loss 0.0099, digit 99.74%, image 98.72% | val loss 0.0081, digit 99.82%, image 99.10%
+epoch 15/20 | train loss 0.0071, digit 99.83%, image 99.20% | val loss 0.0067, digit 99.86%, image 99.30%
+epoch 16/20 | train loss 0.0053, digit 99.86%, image 99.31% | val loss 0.0067, digit 99.83%, image 99.16%
+epoch 17/20 | train loss 0.0037, digit 99.91%, image 99.57% | val loss 0.0040, digit 99.89%, image 99.44%
+epoch 18/20 | train loss 0.0030, digit 99.94%, image 99.72% | val loss 0.0030, digit 99.92%, image 99.58%
+epoch 19/20 | train loss 0.0027, digit 99.92%, image 99.61% | val loss 0.0028, digit 99.93%, image 99.66%
+epoch 20/20 | train loss 0.0031, digit 99.92%, image 99.58% | val loss 0.0026, digit 99.94%, image 99.68%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/captcha34-10k/20261028-230852-ce395688/checkpoints/best.pt
+data/test/test0 digit 99.40%, image 97.00%
+data/test/test1 digit 99.60%, image 98.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 99.80%, image 99.00%
+### END ablate seed 42 23:13:05
+### START bsx seed 42 23:13:05
+== bsx16-10k (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.7876, digit 28.87%, image 0.80% | val loss 1.0751, digit 54.02%, image 4.20%
+epoch 02/20 | train loss 0.4381, digit 85.10%, image 53.23% | val loss 0.0947, digit 97.83%, image 89.52%
+epoch 03/20 | train loss 0.0841, digit 98.31%, image 91.90% | val loss 0.0361, digit 99.24%, image 96.36%
+epoch 04/20 | train loss 0.0491, digit 98.99%, image 95.20% | val loss 0.0191, digit 99.58%, image 98.04%
+epoch 05/20 | train loss 0.0404, digit 99.13%, image 95.83% | val loss 0.0062, digit 99.88%, image 99.42%
+epoch 06/20 | train loss 0.0252, digit 99.49%, image 97.54% | val loss 0.0262, digit 99.31%, image 96.60%
+epoch 07/20 | train loss 0.0302, digit 99.29%, image 96.62% | val loss 0.0054, digit 99.90%, image 99.52%
+epoch 08/20 | train loss 0.0183, digit 99.58%, image 97.93% | val loss 0.0119, digit 99.69%, image 98.50%
+epoch 09/20 | train loss 0.0185, digit 99.60%, image 98.05% | val loss 0.0142, digit 99.63%, image 98.18%
+epoch 10/20 | train loss 0.0125, digit 99.76%, image 98.80% | val loss 0.0069, digit 99.87%, image 99.36%
+epoch 11/20 | train loss 0.0097, digit 99.81%, image 99.07% | val loss 0.0012, digit 99.98%, image 99.88%
+epoch 12/20 | train loss 0.0077, digit 99.85%, image 99.27% | val loss 0.0075, digit 99.86%, image 99.28%
+epoch 13/20 | train loss 0.0057, digit 99.89%, image 99.46% | val loss 0.0017, digit 99.96%, image 99.82%
+epoch 14/20 | train loss 0.0046, digit 99.91%, image 99.53% | val loss 0.0016, digit 99.98%, image 99.88%
+epoch 15/20 | train loss 0.0033, digit 99.94%, image 99.71% | val loss 0.0013, digit 99.97%, image 99.86%
+epoch 16/20 | train loss 0.0029, digit 99.94%, image 99.72% | val loss 0.0010, digit 99.98%, image 99.90%
+epoch 17/20 | train loss 0.0017, digit 99.96%, image 99.81% | val loss 0.0005, digit 99.99%, image 99.94%
+epoch 18/20 | train loss 0.0013, digit 99.97%, image 99.85% | val loss 0.0005, digit 99.98%, image 99.92%
+epoch 19/20 | train loss 0.0018, digit 99.97%, image 99.83% | val loss 0.0004, digit 99.98%, image 99.92%
+epoch 20/20 | train loss 0.0011, digit 99.98%, image 99.90% | val loss 0.0003, digit 99.99%, image 99.94%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx16-10k/20261028-231307-57fd0d27/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== bsx32-10k (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.8437, digit 26.39%, image 0.38% | val loss 1.2564, digit 43.69%, image 1.28%
+epoch 02/20 | train loss 0.5295, digit 81.10%, image 44.07% | val loss 0.3492, digit 88.90%, image 55.62%
+epoch 03/20 | train loss 0.0863, digit 98.56%, image 93.18% | val loss 0.0262, digit 99.72%, image 98.60%
+epoch 04/20 | train loss 0.0380, digit 99.35%, image 96.90% | val loss 0.0238, digit 99.48%, image 97.42%
+epoch 05/20 | train loss 0.0340, digit 99.33%, image 96.76% | val loss 0.0110, digit 99.85%, image 99.24%
+epoch 06/20 | train loss 0.0210, digit 99.58%, image 97.95% | val loss 0.0106, digit 99.83%, image 99.14%
+epoch 07/20 | train loss 0.0192, digit 99.61%, image 98.09% | val loss 0.0233, digit 99.40%, image 97.02%
+epoch 08/20 | train loss 0.0168, digit 99.65%, image 98.26% | val loss 0.0108, digit 99.77%, image 98.84%
+epoch 09/20 | train loss 0.0094, digit 99.82%, image 99.11% | val loss 0.0047, digit 99.92%, image 99.60%
+epoch 10/20 | train loss 0.0108, digit 99.77%, image 98.95% | val loss 0.0160, digit 99.68%, image 98.40%
+epoch 11/20 | train loss 0.0078, digit 99.84%, image 99.19% | val loss 0.0042, digit 99.89%, image 99.44%
+epoch 12/20 | train loss 0.0070, digit 99.84%, image 99.22% | val loss 0.0024, digit 99.96%, image 99.82%
+epoch 13/20 | train loss 0.0035, digit 99.94%, image 99.68% | val loss 0.0028, digit 99.95%, image 99.74%
+epoch 14/20 | train loss 0.0050, digit 99.91%, image 99.57% | val loss 0.0045, digit 99.89%, image 99.46%
+epoch 15/20 | train loss 0.0028, digit 99.94%, image 99.73% | val loss 0.0020, digit 99.96%, image 99.80%
+epoch 16/20 | train loss 0.0020, digit 99.96%, image 99.78% | val loss 0.0013, digit 99.97%, image 99.84%
+epoch 17/20 | train loss 0.0019, digit 99.96%, image 99.80% | val loss 0.0014, digit 99.96%, image 99.78%
+epoch 18/20 | train loss 0.0017, digit 99.97%, image 99.86% | val loss 0.0013, digit 99.96%, image 99.80%
+epoch 19/20 | train loss 0.0011, digit 99.98%, image 99.91% | val loss 0.0010, digit 99.96%, image 99.80%
+epoch 20/20 | train loss 0.0012, digit 99.98%, image 99.89% | val loss 0.0010, digit 99.96%, image 99.80%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx32-10k/20261028-231707-b1f1ec5c/checkpoints/best.pt
+data/test/test0 digit 99.60%, image 98.00%
+data/test/test1 digit 99.60%, image 98.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== bsx64-10k (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.9781, digit 21.86%, image 0.09% | val loss 2.1326, digit 28.07%, image 0.06%
+epoch 02/20 | train loss 0.8858, digit 64.60%, image 17.23% | val loss 0.3820, digit 89.64%, image 55.42%
+epoch 03/20 | train loss 0.1584, digit 97.28%, image 87.50% | val loss 0.0966, digit 97.95%, image 90.30%
+epoch 04/20 | train loss 0.0472, digit 99.33%, image 96.74% | val loss 0.0270, digit 99.63%, image 98.16%
+epoch 05/20 | train loss 0.0318, digit 99.46%, image 97.33% | val loss 0.0159, digit 99.73%, image 98.66%
+epoch 06/20 | train loss 0.0225, digit 99.60%, image 98.07% | val loss 0.0885, digit 97.08%, image 86.20%
+epoch 07/20 | train loss 0.0177, digit 99.69%, image 98.47% | val loss 0.0130, digit 99.80%, image 99.04%
+epoch 08/20 | train loss 0.0190, digit 99.61%, image 98.12% | val loss 0.0249, digit 99.38%, image 96.92%
+epoch 09/20 | train loss 0.0113, digit 99.80%, image 99.08% | val loss 0.0145, digit 99.66%, image 98.34%
+epoch 10/20 | train loss 0.0088, digit 99.83%, image 99.16% | val loss 0.0076, digit 99.87%, image 99.36%
+epoch 11/20 | train loss 0.0055, digit 99.92%, image 99.59% | val loss 0.0028, digit 99.96%, image 99.78%
+epoch 12/20 | train loss 0.0036, digit 99.95%, image 99.74% | val loss 0.0035, digit 99.95%, image 99.74%
+epoch 13/20 | train loss 0.0030, digit 99.95%, image 99.74% | val loss 0.0023, digit 99.96%, image 99.78%
+epoch 14/20 | train loss 0.0031, digit 99.96%, image 99.78% | val loss 0.0019, digit 99.97%, image 99.86%
+epoch 15/20 | train loss 0.0020, digit 99.96%, image 99.82% | val loss 0.0019, digit 99.96%, image 99.78%
+epoch 16/20 | train loss 0.0023, digit 99.96%, image 99.80% | val loss 0.0015, digit 99.98%, image 99.88%
+epoch 17/20 | train loss 0.0016, digit 99.98%, image 99.88% | val loss 0.0014, digit 99.97%, image 99.86%
+epoch 18/20 | train loss 0.0016, digit 99.97%, image 99.84% | val loss 0.0015, digit 99.98%, image 99.88%
+epoch 19/20 | train loss 0.0017, digit 99.97%, image 99.87% | val loss 0.0015, digit 99.97%, image 99.86%
+epoch 20/20 | train loss 0.0013, digit 99.99%, image 99.93% | val loss 0.0015, digit 99.97%, image 99.86%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx64-10k/20261028-232021-3eba4ff4/checkpoints/best.pt
+data/test/test0 digit 99.60%, image 98.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== bsx128-10k (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.1092, digit 18.55%, image 0.00% | val loss 2.0384, digit 25.78%, image 0.04%
+epoch 02/20 | train loss 1.2144, digit 52.94%, image 6.09% | val loss 0.7329, digit 76.23%, image 22.64%
+epoch 03/20 | train loss 0.3214, digit 93.24%, image 72.45% | val loss 0.1426, digit 98.09%, image 90.78%
+epoch 04/20 | train loss 0.0665, digit 99.32%, image 96.65% | val loss 0.0352, digit 99.77%, image 98.88%
+epoch 05/20 | train loss 0.0330, digit 99.61%, image 98.12% | val loss 0.0264, digit 99.71%, image 98.54%
+epoch 06/20 | train loss 0.0273, digit 99.58%, image 97.93% | val loss 0.0621, digit 98.12%, image 90.88%
+epoch 07/20 | train loss 0.0195, digit 99.74%, image 98.79% | val loss 0.0212, digit 99.68%, image 98.42%
+epoch 08/20 | train loss 0.0124, digit 99.83%, image 99.17% | val loss 0.0103, digit 99.88%, image 99.42%
+epoch 09/20 | train loss 0.0098, digit 99.85%, image 99.27% | val loss 0.0220, digit 99.56%, image 97.86%
+epoch 10/20 | train loss 0.0084, digit 99.88%, image 99.41% | val loss 0.0072, digit 99.90%, image 99.52%
+epoch 11/20 | train loss 0.0067, digit 99.90%, image 99.49% | val loss 0.0254, digit 99.43%, image 97.22%
+epoch 12/20 | train loss 0.0050, digit 99.93%, image 99.64% | val loss 0.0088, digit 99.85%, image 99.26%
+epoch 13/20 | train loss 0.0057, digit 99.90%, image 99.53% | val loss 0.0052, digit 99.94%, image 99.70%
+epoch 14/20 | train loss 0.0035, digit 99.95%, image 99.77% | val loss 0.0032, digit 99.96%, image 99.78%
+epoch 15/20 | train loss 0.0035, digit 99.95%, image 99.78% | val loss 0.0029, digit 99.95%, image 99.76%
+epoch 16/20 | train loss 0.0027, digit 99.96%, image 99.81% | val loss 0.0029, digit 99.96%, image 99.82%
+epoch 17/20 | train loss 0.0027, digit 99.96%, image 99.81% | val loss 0.0027, digit 99.96%, image 99.80%
+epoch 18/20 | train loss 0.0021, digit 99.98%, image 99.92% | val loss 0.0027, digit 99.96%, image 99.82%
+epoch 19/20 | train loss 0.0021, digit 99.98%, image 99.88% | val loss 0.0025, digit 99.96%, image 99.80%
+epoch 20/20 | train loss 0.0023, digit 99.97%, image 99.87% | val loss 0.0025, digit 99.96%, image 99.80%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx128-10k/20261028-232321-cdae0a18/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.60%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== bsx256-10k (seed 42) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.2104, digit 15.18%, image 0.04% | val loss 3.1637, digit 13.54%, image 0.00%
+epoch 02/20 | train loss 1.6423, digit 35.75%, image 0.67% | val loss 2.8406, digit 25.42%, image 0.06%
+epoch 03/20 | train loss 0.8610, digit 72.14%, image 20.55% | val loss 0.9160, digit 67.33%, image 12.70%
+epoch 04/20 | train loss 0.2701, digit 95.66%, image 80.68% | val loss 0.1569, digit 97.48%, image 87.98%
+epoch 05/20 | train loss 0.0845, digit 99.15%, image 95.85% | val loss 0.2724, digit 91.64%, image 64.84%
+epoch 06/20 | train loss 0.0422, digit 99.61%, image 98.09% | val loss 0.0351, digit 99.76%, image 98.80%
+epoch 07/20 | train loss 0.0252, digit 99.77%, image 98.86% | val loss 0.0292, digit 99.82%, image 99.10%
+epoch 08/20 | train loss 0.0186, digit 99.81%, image 99.08% | val loss 0.0170, digit 99.85%, image 99.24%
+epoch 09/20 | train loss 0.0143, digit 99.86%, image 99.31% | val loss 0.0202, digit 99.84%, image 99.18%
+epoch 10/20 | train loss 0.0111, digit 99.90%, image 99.52% | val loss 0.0117, digit 99.88%, image 99.44%
+epoch 11/20 | train loss 0.0107, digit 99.89%, image 99.44% | val loss 0.0145, digit 99.86%, image 99.32%
+epoch 12/20 | train loss 0.0090, digit 99.92%, image 99.61% | val loss 0.0086, digit 99.94%, image 99.72%
+epoch 13/20 | train loss 0.0079, digit 99.91%, image 99.57% | val loss 0.0086, digit 99.87%, image 99.36%
+epoch 14/20 | train loss 0.0072, digit 99.93%, image 99.63% | val loss 0.0082, digit 99.93%, image 99.66%
+epoch 15/20 | train loss 0.0056, digit 99.95%, image 99.77% | val loss 0.0058, digit 99.95%, image 99.74%
+epoch 16/20 | train loss 0.0054, digit 99.95%, image 99.75% | val loss 0.0062, digit 99.94%, image 99.70%
+epoch 17/20 | train loss 0.0047, digit 99.97%, image 99.84% | val loss 0.0055, digit 99.95%, image 99.76%
+epoch 18/20 | train loss 0.0044, digit 99.97%, image 99.85% | val loss 0.0050, digit 99.96%, image 99.78%
+epoch 19/20 | train loss 0.0043, digit 99.97%, image 99.83% | val loss 0.0050, digit 99.96%, image 99.80%
+epoch 20/20 | train loss 0.0041, digit 99.99%, image 99.93% | val loss 0.0049, digit 99.96%, image 99.78%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx256-10k/20261028-232710-7ec270ed/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+### END bsx seed 42 23:31:44
+### START size seed 43 23:31:44
+== size-50000 (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 50000
+validation images: 5000
+epoch 01/20 | train loss 0.6431, digit 75.93%, image 58.34% | val loss 0.0325, digit 99.38%, image 97.06%
+epoch 02/20 | train loss 0.0219, digit 99.59%, image 98.03% | val loss 0.0070, digit 99.90%, image 99.56%
+epoch 03/20 | train loss 0.0128, digit 99.73%, image 98.67% | val loss 0.0101, digit 99.80%, image 99.00%
+epoch 04/20 | train loss 0.0113, digit 99.74%, image 98.74% | val loss 0.0060, digit 99.87%, image 99.36%
+epoch 05/20 | train loss 0.0079, digit 99.83%, image 99.18% | val loss 0.0041, digit 99.90%, image 99.48%
+epoch 06/20 | train loss 0.0089, digit 99.79%, image 98.98% | val loss 0.0013, digit 99.98%, image 99.90%
+epoch 07/20 | train loss 0.0070, digit 99.85%, image 99.26% | val loss 0.0019, digit 99.97%, image 99.84%
+epoch 08/20 | train loss 0.0047, digit 99.90%, image 99.51% | val loss 0.0024, digit 99.95%, image 99.74%
+epoch 09/20 | train loss 0.0048, digit 99.89%, image 99.48% | val loss 0.0010, digit 99.97%, image 99.86%
+epoch 10/20 | train loss 0.0047, digit 99.90%, image 99.50% | val loss 0.0017, digit 99.97%, image 99.88%
+epoch 11/20 | train loss 0.0034, digit 99.92%, image 99.63% | val loss 0.0002, digit 99.99%, image 99.96%
+epoch 12/20 | train loss 0.0019, digit 99.96%, image 99.81% | val loss 0.0001, digit 100.00%, image 100.00%
+epoch 13/20 | train loss 0.0018, digit 99.96%, image 99.79% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 14/20 | train loss 0.0014, digit 99.97%, image 99.85% | val loss 0.0003, digit 100.00%, image 99.98%
+epoch 15/20 | train loss 0.0012, digit 99.97%, image 99.87% | val loss 0.0001, digit 100.00%, image 99.98%
+epoch 16/20 | train loss 0.0007, digit 99.98%, image 99.92% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 17/20 | train loss 0.0006, digit 99.99%, image 99.93% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 18/20 | train loss 0.0005, digit 99.99%, image 99.93% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 19/20 | train loss 0.0002, digit 99.99%, image 99.97% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 20/20 | train loss 0.0005, digit 99.99%, image 99.94% | val loss 0.0000, digit 100.00%, image 100.00%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-50000/20261028-233146-78d2c281/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== size-20000 (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 20000
+validation images: 5000
+epoch 01/20 | train loss 1.4025, digit 47.17%, image 16.99% | val loss 0.5774, digit 79.46%, image 30.36%
+epoch 02/20 | train loss 0.0668, digit 99.08%, image 95.60% | val loss 0.0372, digit 99.30%, image 96.52%
+epoch 03/20 | train loss 0.0251, digit 99.58%, image 97.94% | val loss 0.0582, digit 98.38%, image 92.18%
+epoch 04/20 | train loss 0.0201, digit 99.59%, image 98.03% | val loss 0.2084, digit 94.00%, image 73.00%
+epoch 05/20 | train loss 0.0177, digit 99.63%, image 98.16% | val loss 0.0134, digit 99.74%, image 98.70%
+epoch 06/20 | train loss 0.0116, digit 99.74%, image 98.73% | val loss 0.0240, digit 99.43%, image 97.18%
+epoch 07/20 | train loss 0.0107, digit 99.77%, image 98.89% | val loss 0.0066, digit 99.89%, image 99.44%
+epoch 08/20 | train loss 0.0071, digit 99.85%, image 99.28% | val loss 0.0066, digit 99.86%, image 99.32%
+epoch 09/20 | train loss 0.0066, digit 99.86%, image 99.32% | val loss 0.0043, digit 99.88%, image 99.38%
+epoch 10/20 | train loss 0.0047, digit 99.90%, image 99.51% | val loss 0.0040, digit 99.91%, image 99.56%
+epoch 11/20 | train loss 0.0059, digit 99.87%, image 99.37% | val loss 0.0025, digit 99.92%, image 99.58%
+epoch 12/20 | train loss 0.0033, digit 99.93%, image 99.64% | val loss 0.0016, digit 99.97%, image 99.84%
+epoch 13/20 | train loss 0.0029, digit 99.94%, image 99.71% | val loss 0.0004, digit 99.99%, image 99.96%
+epoch 14/20 | train loss 0.0022, digit 99.95%, image 99.76% | val loss 0.0008, digit 99.98%, image 99.90%
+epoch 15/20 | train loss 0.0010, digit 99.98%, image 99.89% | val loss 0.0003, digit 99.99%, image 99.96%
+epoch 16/20 | train loss 0.0010, digit 99.98%, image 99.92% | val loss 0.0004, digit 99.99%, image 99.96%
+epoch 17/20 | train loss 0.0012, digit 99.97%, image 99.86% | val loss 0.0003, digit 99.99%, image 99.96%
+epoch 18/20 | train loss 0.0009, digit 99.98%, image 99.91% | val loss 0.0002, digit 99.99%, image 99.96%
+epoch 19/20 | train loss 0.0009, digit 99.99%, image 99.93% | val loss 0.0002, digit 100.00%, image 99.98%
+epoch 20/20 | train loss 0.0007, digit 99.98%, image 99.92% | val loss 0.0002, digit 100.00%, image 99.98%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-20000/20261028-234416-e84e5536/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== baseline-10k (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.0380, digit 20.15%, image 0.04% | val loss 1.7401, digit 29.49%, image 0.12%
+epoch 02/20 | train loss 0.8804, digit 65.57%, image 16.19% | val loss 0.5266, digit 82.20%, image 38.12%
+epoch 03/20 | train loss 0.1598, digit 97.02%, image 86.73% | val loss 0.0495, digit 99.55%, image 97.80%
+epoch 04/20 | train loss 0.0519, digit 99.23%, image 96.25% | val loss 0.0671, digit 98.30%, image 91.88%
+epoch 05/20 | train loss 0.0284, digit 99.56%, image 97.88% | val loss 0.1603, digit 95.44%, image 78.96%
+epoch 06/20 | train loss 0.0191, digit 99.69%, image 98.47% | val loss 0.0131, digit 99.83%, image 99.14%
+epoch 07/20 | train loss 0.0187, digit 99.64%, image 98.27% | val loss 0.0094, digit 99.88%, image 99.42%
+epoch 08/20 | train loss 0.0113, digit 99.81%, image 99.06% | val loss 0.0153, digit 99.72%, image 98.62%
+epoch 09/20 | train loss 0.0105, digit 99.82%, image 99.09% | val loss 0.0163, digit 99.64%, image 98.22%
+epoch 10/20 | train loss 0.0121, digit 99.78%, image 98.96% | val loss 0.0063, digit 99.93%, image 99.64%
+epoch 11/20 | train loss 0.0055, digit 99.91%, image 99.57% | val loss 0.0038, digit 99.94%, image 99.72%
+epoch 12/20 | train loss 0.0043, digit 99.92%, image 99.62% | val loss 0.0124, digit 99.71%, image 98.56%
+epoch 13/20 | train loss 0.0048, digit 99.92%, image 99.58% | val loss 0.0029, digit 99.96%, image 99.78%
+epoch 14/20 | train loss 0.0036, digit 99.93%, image 99.67% | val loss 0.0025, digit 99.96%, image 99.80%
+epoch 15/20 | train loss 0.0029, digit 99.95%, image 99.74% | val loss 0.0025, digit 99.96%, image 99.78%
+epoch 16/20 | train loss 0.0023, digit 99.96%, image 99.82% | val loss 0.0016, digit 99.96%, image 99.80%
+epoch 17/20 | train loss 0.0019, digit 99.98%, image 99.88% | val loss 0.0014, digit 99.98%, image 99.92%
+epoch 18/20 | train loss 0.0016, digit 99.96%, image 99.82% | val loss 0.0015, digit 99.97%, image 99.86%
+epoch 19/20 | train loss 0.0013, digit 99.98%, image 99.92% | val loss 0.0015, digit 99.97%, image 99.86%
+epoch 20/20 | train loss 0.0018, digit 99.97%, image 99.88% | val loss 0.0016, digit 99.98%, image 99.88%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/baseline-10k/20261028-234937-52aaa1c7/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== size-5000 (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 5000
+validation images: 5000
+epoch 01/20 | train loss 2.2781, digit 13.09%, image 0.00% | val loss 2.2980, digit 16.00%, image 0.00%
+epoch 02/20 | train loss 1.8034, digit 27.97%, image 0.20% | val loss 1.7880, digit 30.96%, image 0.08%
+epoch 03/20 | train loss 1.1177, digit 56.81%, image 6.43% | val loss 1.0288, digit 60.36%, image 5.40%
+epoch 04/20 | train loss 0.5470, digit 82.09%, image 36.72% | val loss 0.4128, digit 88.30%, image 52.72%
+epoch 05/20 | train loss 0.2207, digit 95.54%, image 79.95% | val loss 0.2459, digit 92.90%, image 68.82%
+epoch 06/20 | train loss 0.0762, digit 99.13%, image 95.77% | val loss 0.0559, digit 99.48%, image 97.46%
+epoch 07/20 | train loss 0.0435, digit 99.58%, image 97.90% | val loss 0.0998, digit 97.58%, image 88.60%
+epoch 08/20 | train loss 0.0322, digit 99.60%, image 98.04% | val loss 0.0250, digit 99.76%, image 98.82%
+epoch 09/20 | train loss 0.0233, digit 99.70%, image 98.56% | val loss 0.0179, digit 99.73%, image 98.68%
+epoch 10/20 | train loss 0.0211, digit 99.72%, image 98.62% | val loss 0.0594, digit 98.50%, image 92.74%
+epoch 11/20 | train loss 0.0133, digit 99.86%, image 99.32% | val loss 0.0142, digit 99.83%, image 99.14%
+epoch 12/20 | train loss 0.0122, digit 99.88%, image 99.44% | val loss 0.0096, digit 99.87%, image 99.36%
+epoch 13/20 | train loss 0.0079, digit 99.92%, image 99.60% | val loss 0.0064, digit 99.94%, image 99.70%
+epoch 14/20 | train loss 0.0083, digit 99.88%, image 99.40% | val loss 0.0069, digit 99.92%, image 99.62%
+epoch 15/20 | train loss 0.0071, digit 99.91%, image 99.58% | val loss 0.0057, digit 99.94%, image 99.72%
+epoch 16/20 | train loss 0.0054, digit 99.95%, image 99.76% | val loss 0.0046, digit 99.94%, image 99.70%
+epoch 17/20 | train loss 0.0048, digit 99.96%, image 99.78% | val loss 0.0040, digit 99.97%, image 99.84%
+epoch 18/20 | train loss 0.0056, digit 99.93%, image 99.70% | val loss 0.0042, digit 99.98%, image 99.88%
+epoch 19/20 | train loss 0.0048, digit 99.96%, image 99.82% | val loss 0.0039, digit 99.97%, image 99.84%
+epoch 20/20 | train loss 0.0043, digit 99.98%, image 99.88% | val loss 0.0038, digit 99.97%, image 99.84%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-5000/20261028-235237-99d0e0c7/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 99.80%, image 99.00%
+== size-2000 (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 2000
+validation images: 5000
+epoch 01/20 | train loss 2.3516, digit 11.00%, image 0.00% | val loss 2.4000, digit 10.37%, image 0.00%
+epoch 02/20 | train loss 2.2563, digit 14.75%, image 0.00% | val loss 2.4687, digit 11.76%, image 0.00%
+epoch 03/20 | train loss 2.0728, digit 19.99%, image 0.10% | val loss 2.0941, digit 19.85%, image 0.08%
+epoch 04/20 | train loss 1.8387, digit 27.21%, image 0.20% | val loss 1.7986, digit 29.36%, image 0.16%
+epoch 05/20 | train loss 1.5679, digit 37.66%, image 0.40% | val loss 1.6831, digit 35.34%, image 0.18%
+epoch 06/20 | train loss 1.2255, digit 53.30%, image 2.97% | val loss 1.3796, digit 45.00%, image 1.48%
+epoch 07/20 | train loss 0.9153, digit 69.06%, image 14.16% | val loss 0.8803, digit 67.74%, image 10.80%
+epoch 08/20 | train loss 0.6170, digit 83.14%, image 38.31% | val loss 0.8887, digit 68.70%, image 13.94%
+epoch 09/20 | train loss 0.3890, digit 92.78%, image 68.65% | val loss 0.4254, digit 86.93%, image 48.36%
+epoch 10/20 | train loss 0.2581, digit 96.05%, image 81.55% | val loss 0.2854, digit 93.48%, image 70.40%
+epoch 11/20 | train loss 0.1566, digit 98.59%, image 92.99% | val loss 0.1680, digit 97.63%, image 88.66%
+epoch 12/20 | train loss 0.1034, digit 99.26%, image 96.32% | val loss 0.1232, digit 98.63%, image 93.30%
+epoch 13/20 | train loss 0.0813, digit 99.48%, image 97.48% | val loss 0.1072, digit 98.74%, image 93.88%
+epoch 14/20 | train loss 0.0620, digit 99.69%, image 98.49% | val loss 0.0727, digit 99.56%, image 97.78%
+epoch 15/20 | train loss 0.0538, digit 99.73%, image 98.64% | val loss 0.0580, digit 99.63%, image 98.14%
+epoch 16/20 | train loss 0.0455, digit 99.86%, image 99.29% | val loss 0.0525, digit 99.68%, image 98.38%
+epoch 17/20 | train loss 0.0430, digit 99.84%, image 99.19% | val loss 0.0496, digit 99.70%, image 98.50%
+epoch 18/20 | train loss 0.0394, digit 99.91%, image 99.55% | val loss 0.0478, digit 99.72%, image 98.60%
+epoch 19/20 | train loss 0.0379, digit 99.89%, image 99.45% | val loss 0.0464, digit 99.72%, image 98.62%
+epoch 20/20 | train loss 0.0370, digit 99.92%, image 99.60% | val loss 0.0463, digit 99.72%, image 98.60%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-2000/20261028-235425-4c945214/checkpoints/best.pt
+data/test/test0 digit 99.00%, image 95.00%
+data/test/test1 digit 98.80%, image 94.00%
+data/test/test2 digit 99.40%, image 97.00%
+data/test/test3 digit 99.40%, image 97.00%
+data/test/test4 digit 99.60%, image 98.00%
+== size-1000 (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 1000
+validation images: 5000
+epoch 01/20 | train loss 2.3571, digit 10.12%, image 0.00% | val loss 2.4816, digit 10.09%, image 0.00%
+epoch 02/20 | train loss 2.3242, digit 11.23%, image 0.00% | val loss 2.4864, digit 10.72%, image 0.00%
+epoch 03/20 | train loss 2.2877, digit 12.62%, image 0.00% | val loss 2.5095, digit 10.51%, image 0.00%
+epoch 04/20 | train loss 2.2202, digit 16.38%, image 0.00% | val loss 2.4515, digit 13.99%, image 0.00%
+epoch 05/20 | train loss 2.1037, digit 20.04%, image 0.00% | val loss 2.3684, digit 14.43%, image 0.00%
+epoch 06/20 | train loss 1.9710, digit 24.38%, image 0.00% | val loss 2.0741, digit 20.21%, image 0.00%
+epoch 07/20 | train loss 1.8399, digit 28.67%, image 0.10% | val loss 2.0268, digit 22.98%, image 0.04%
+epoch 08/20 | train loss 1.6959, digit 34.81%, image 0.52% | val loss 2.0203, digit 25.49%, image 0.06%
+epoch 09/20 | train loss 1.5495, digit 41.88%, image 0.83% | val loss 2.1447, digit 27.01%, image 0.10%
+epoch 10/20 | train loss 1.3444, digit 53.15%, image 3.85% | val loss 1.6445, digit 37.36%, image 0.28%
+epoch 11/20 | train loss 1.1679, digit 60.83%, image 6.88% | val loss 1.3276, digit 49.42%, image 1.98%
+epoch 12/20 | train loss 0.9947, digit 68.25%, image 12.92% | val loss 1.5360, digit 40.00%, image 0.90%
+epoch 13/20 | train loss 0.8590, digit 74.96%, image 21.98% | val loss 1.3362, digit 49.54%, image 3.12%
+epoch 14/20 | train loss 0.7318, digit 81.21%, image 34.58% | val loss 0.8903, digit 72.16%, image 16.26%
+epoch 15/20 | train loss 0.6250, digit 86.73%, image 48.23% | val loss 0.7389, digit 80.47%, image 32.36%
+epoch 16/20 | train loss 0.5624, digit 88.75%, image 54.58% | val loss 0.7078, digit 80.60%, image 33.12%
+epoch 17/20 | train loss 0.5033, digit 90.94%, image 61.46% | val loss 0.6502, digit 84.35%, image 41.00%
+epoch 18/20 | train loss 0.4607, digit 93.40%, image 70.52% | val loss 0.5964, digit 86.02%, image 46.10%
+epoch 19/20 | train loss 0.4437, digit 94.08%, image 73.33% | val loss 0.5791, digit 86.52%, image 46.92%
+epoch 20/20 | train loss 0.4342, digit 94.44%, image 75.10% | val loss 0.5697, digit 86.98%, image 48.22%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-1000/20261028-235532-daf581da/checkpoints/best.pt
+data/test/test0 digit 84.20%, image 46.00%
+data/test/test1 digit 83.60%, image 42.00%
+data/test/test2 digit 85.80%, image 47.00%
+data/test/test3 digit 81.80%, image 33.00%
+data/test/test4 digit 85.20%, image 44.00%
+### END size seed 43 23:56:22
+### START ablate seed 43 23:56:22
+== noaug-10k (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.8140, digit 27.74%, image 0.66% | val loss 1.4096, digit 38.44%, image 0.68%
+epoch 02/20 | train loss 0.6364, digit 76.81%, image 31.52% | val loss 0.4670, digit 81.07%, image 34.92%
+epoch 03/20 | train loss 0.1163, digit 98.17%, image 91.43% | val loss 0.7247, digit 76.28%, image 24.86%
+epoch 04/20 | train loss 0.0272, digit 99.76%, image 98.81% | val loss 0.1411, digit 95.66%, image 79.90%
+epoch 05/20 | train loss 0.0139, digit 99.88%, image 99.39% | val loss 0.0125, digit 99.83%, image 99.14%
+epoch 06/20 | train loss 0.0109, digit 99.88%, image 99.40% | val loss 0.0133, digit 99.77%, image 98.88%
+epoch 07/20 | train loss 0.0044, digit 99.97%, image 99.85% | val loss 0.0261, digit 99.40%, image 97.08%
+epoch 08/20 | train loss 0.0074, digit 99.90%, image 99.52% | val loss 0.0937, digit 97.16%, image 86.52%
+epoch 09/20 | train loss 0.0214, digit 99.54%, image 97.76% | val loss 0.0054, digit 99.93%, image 99.66%
+epoch 10/20 | train loss 0.0032, digit 99.97%, image 99.87% | val loss 0.0041, digit 99.90%, image 99.50%
+epoch 11/20 | train loss 0.0016, digit 100.00%, image 99.98% | val loss 0.0031, digit 99.93%, image 99.64%
+epoch 12/20 | train loss 0.0010, digit 100.00%, image 100.00% | val loss 0.0030, digit 99.93%, image 99.64%
+epoch 13/20 | train loss 0.0009, digit 100.00%, image 100.00% | val loss 0.0027, digit 99.93%, image 99.66%
+epoch 14/20 | train loss 0.0008, digit 100.00%, image 100.00% | val loss 0.0027, digit 99.94%, image 99.72%
+epoch 15/20 | train loss 0.0007, digit 100.00%, image 100.00% | val loss 0.0026, digit 99.94%, image 99.70%
+epoch 16/20 | train loss 0.0007, digit 100.00%, image 100.00% | val loss 0.0026, digit 99.94%, image 99.72%
+epoch 17/20 | train loss 0.0007, digit 100.00%, image 100.00% | val loss 0.0026, digit 99.94%, image 99.68%
+epoch 18/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0025, digit 99.94%, image 99.70%
+epoch 19/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0025, digit 99.95%, image 99.74%
+epoch 20/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0025, digit 99.95%, image 99.74%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/noaug-10k/20261028-235624-f0ec5942/checkpoints/best.pt
+data/test/test0 digit 99.60%, image 98.00%
+data/test/test1 digit 99.60%, image 98.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 99.60%, image 98.00%
+== wd-0 (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.0235, digit 20.79%, image 0.07% | val loss 2.3485, digit 23.40%, image 0.02%
+epoch 02/20 | train loss 0.8114, digit 69.60%, image 26.35% | val loss 0.3413, digit 92.04%, image 65.36%
+epoch 03/20 | train loss 0.1117, digit 98.52%, image 92.86% | val loss 0.3591, digit 88.17%, image 55.36%
+epoch 04/20 | train loss 0.0455, digit 99.28%, image 96.48% | val loss 0.1583, digit 94.65%, image 75.92%
+epoch 05/20 | train loss 0.0276, digit 99.57%, image 97.93% | val loss 0.0183, digit 99.73%, image 98.70%
+epoch 06/20 | train loss 0.0184, digit 99.70%, image 98.53% | val loss 0.0269, digit 99.44%, image 97.28%
+epoch 07/20 | train loss 0.0171, digit 99.69%, image 98.51% | val loss 0.0201, digit 99.55%, image 97.82%
+epoch 08/20 | train loss 0.0125, digit 99.78%, image 98.91% | val loss 0.0052, digit 99.91%, image 99.54%
+epoch 09/20 | train loss 0.0094, digit 99.82%, image 99.12% | val loss 0.0123, digit 99.73%, image 98.64%
+epoch 10/20 | train loss 0.0096, digit 99.81%, image 99.09% | val loss 0.0117, digit 99.77%, image 98.86%
+epoch 11/20 | train loss 0.0080, digit 99.83%, image 99.18% | val loss 0.0032, digit 99.95%, image 99.74%
+epoch 12/20 | train loss 0.0053, digit 99.89%, image 99.47% | val loss 1.1551, digit 76.86%, image 34.54%
+epoch 13/20 | train loss 0.0040, digit 99.92%, image 99.59% | val loss 0.0028, digit 99.96%, image 99.78%
+epoch 14/20 | train loss 0.0027, digit 99.96%, image 99.78% | val loss 0.0015, digit 99.97%, image 99.86%
+epoch 15/20 | train loss 0.0029, digit 99.95%, image 99.77% | val loss 0.0014, digit 99.97%, image 99.86%
+epoch 16/20 | train loss 0.0022, digit 99.96%, image 99.81% | val loss 0.0014, digit 99.96%, image 99.82%
+epoch 17/20 | train loss 0.0021, digit 99.95%, image 99.77% | val loss 0.0017, digit 99.97%, image 99.84%
+epoch 18/20 | train loss 0.0016, digit 99.98%, image 99.91% | val loss 0.0011, digit 99.97%, image 99.86%
+epoch 19/20 | train loss 0.0015, digit 99.98%, image 99.90% | val loss 0.0013, digit 99.98%, image 99.88%
+epoch 20/20 | train loss 0.0016, digit 99.98%, image 99.89% | val loss 0.0012, digit 99.98%, image 99.88%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/wd-0/20261028-235920-366902b3/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== wd-0.01 (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.0261, digit 20.70%, image 0.12% | val loss 1.7864, digit 28.54%, image 0.10%
+epoch 02/20 | train loss 0.7875, digit 69.93%, image 21.57% | val loss 0.6766, digit 76.42%, image 26.64%
+epoch 03/20 | train loss 0.1194, digit 98.29%, image 91.87% | val loss 0.0787, digit 98.61%, image 93.16%
+epoch 04/20 | train loss 0.0393, digit 99.48%, image 97.45% | val loss 0.1350, digit 96.40%, image 83.38%
+epoch 05/20 | train loss 0.0270, digit 99.58%, image 97.92% | val loss 0.0218, digit 99.62%, image 98.12%
+epoch 06/20 | train loss 0.0194, digit 99.68%, image 98.45% | val loss 0.0262, digit 99.60%, image 98.04%
+epoch 07/20 | train loss 0.0155, digit 99.73%, image 98.66% | val loss 0.0135, digit 99.76%, image 98.82%
+epoch 08/20 | train loss 0.0120, digit 99.79%, image 98.96% | val loss 0.0117, digit 99.80%, image 99.00%
+epoch 09/20 | train loss 0.0105, digit 99.82%, image 99.10% | val loss 0.0060, digit 99.89%, image 99.44%
+epoch 10/20 | train loss 0.0108, digit 99.79%, image 98.96% | val loss 0.0288, digit 99.29%, image 96.54%
+epoch 11/20 | train loss 0.0055, digit 99.91%, image 99.55% | val loss 0.0039, digit 99.92%, image 99.60%
+epoch 12/20 | train loss 0.0061, digit 99.88%, image 99.42% | val loss 0.0068, digit 99.86%, image 99.32%
+epoch 13/20 | train loss 0.0038, digit 99.94%, image 99.69% | val loss 0.0036, digit 99.94%, image 99.70%
+epoch 14/20 | train loss 0.0026, digit 99.96%, image 99.82% | val loss 0.0016, digit 99.98%, image 99.88%
+epoch 15/20 | train loss 0.0027, digit 99.95%, image 99.75% | val loss 0.0018, digit 99.96%, image 99.78%
+epoch 16/20 | train loss 0.0022, digit 99.96%, image 99.79% | val loss 0.0015, digit 99.98%, image 99.88%
+epoch 17/20 | train loss 0.0018, digit 99.97%, image 99.87% | val loss 0.0012, digit 99.99%, image 99.94%
+epoch 18/20 | train loss 0.0016, digit 99.98%, image 99.90% | val loss 0.0010, digit 99.99%, image 99.94%
+epoch 19/20 | train loss 0.0015, digit 99.98%, image 99.90% | val loss 0.0011, digit 99.99%, image 99.94%
+epoch 20/20 | train loss 0.0014, digit 99.98%, image 99.92% | val loss 0.0011, digit 99.99%, image 99.94%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/wd-0.01/20261029-000219-059cbccd/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== wd-0.1 (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.0223, digit 20.62%, image 0.06% | val loss 1.6608, digit 30.39%, image 0.16%
+epoch 02/20 | train loss 0.8753, digit 65.62%, image 19.93% | val loss 0.4579, digit 88.14%, image 54.32%
+epoch 03/20 | train loss 0.1337, digit 98.06%, image 90.91% | val loss 0.6288, digit 81.88%, image 37.56%
+epoch 04/20 | train loss 0.0472, digit 99.38%, image 96.98% | val loss 0.0438, digit 99.29%, image 96.52%
+epoch 05/20 | train loss 0.0271, digit 99.63%, image 98.19% | val loss 0.0282, digit 99.52%, image 97.64%
+epoch 06/20 | train loss 0.0233, digit 99.64%, image 98.24% | val loss 0.0989, digit 96.96%, image 85.66%
+epoch 07/20 | train loss 0.0200, digit 99.69%, image 98.47% | val loss 0.0323, digit 99.30%, image 96.56%
+epoch 08/20 | train loss 0.0158, digit 99.74%, image 98.69% | val loss 0.0173, digit 99.74%, image 98.72%
+epoch 09/20 | train loss 0.0103, digit 99.84%, image 99.24% | val loss 0.0050, digit 99.94%, image 99.72%
+epoch 10/20 | train loss 0.0106, digit 99.80%, image 99.01% | val loss 0.0113, digit 99.80%, image 99.04%
+epoch 11/20 | train loss 0.0062, digit 99.91%, image 99.54% | val loss 0.0037, digit 99.95%, image 99.74%
+epoch 12/20 | train loss 0.0045, digit 99.93%, image 99.66% | val loss 0.0070, digit 99.86%, image 99.32%
+epoch 13/20 | train loss 0.0042, digit 99.95%, image 99.74% | val loss 0.0027, digit 99.97%, image 99.84%
+epoch 14/20 | train loss 0.0035, digit 99.96%, image 99.79% | val loss 0.0031, digit 99.96%, image 99.82%
+epoch 15/20 | train loss 0.0037, digit 99.96%, image 99.78% | val loss 0.0023, digit 99.96%, image 99.80%
+epoch 16/20 | train loss 0.0027, digit 99.97%, image 99.83% | val loss 0.0026, digit 99.95%, image 99.74%
+epoch 17/20 | train loss 0.0023, digit 99.98%, image 99.89% | val loss 0.0014, digit 99.98%, image 99.92%
+epoch 18/20 | train loss 0.0021, digit 99.97%, image 99.87% | val loss 0.0015, digit 99.99%, image 99.94%
+epoch 19/20 | train loss 0.0019, digit 99.98%, image 99.91% | val loss 0.0014, digit 99.99%, image 99.94%
+epoch 20/20 | train loss 0.0022, digit 99.97%, image 99.86% | val loss 0.0014, digit 99.99%, image 99.94%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/wd-0.1/20261029-000522-5b96d402/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== lr-0.0001 (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.3066, digit 11.28%, image 0.00% | val loss 2.2956, digit 12.23%, image 0.00%
+epoch 02/20 | train loss 2.1609, digit 17.27%, image 0.02% | val loss 2.0618, digit 20.08%, image 0.00%
+epoch 03/20 | train loss 1.8530, digit 27.10%, image 0.10% | val loss 1.6658, digit 35.11%, image 0.48%
+epoch 04/20 | train loss 1.4661, digit 45.67%, image 1.59% | val loss 1.2021, digit 58.71%, image 4.76%
+epoch 05/20 | train loss 0.9921, digit 70.46%, image 16.30% | val loss 0.7168, digit 83.39%, image 37.58%
+epoch 06/20 | train loss 0.5951, digit 87.62%, image 51.32% | val loss 0.4500, digit 90.50%, image 59.32%
+epoch 07/20 | train loss 0.3513, digit 95.22%, image 78.10% | val loss 0.2816, digit 95.29%, image 78.40%
+epoch 08/20 | train loss 0.2195, digit 97.89%, image 89.93% | val loss 0.1632, digit 98.88%, image 94.60%
+epoch 09/20 | train loss 0.1507, digit 98.72%, image 93.83% | val loss 0.1055, digit 99.44%, image 97.22%
+epoch 10/20 | train loss 0.1129, digit 99.18%, image 96.01% | val loss 0.0903, digit 99.58%, image 97.90%
+epoch 11/20 | train loss 0.0890, digit 99.34%, image 96.79% | val loss 0.0672, digit 99.60%, image 98.02%
+epoch 12/20 | train loss 0.0744, digit 99.43%, image 97.25% | val loss 0.0596, digit 99.61%, image 98.06%
+epoch 13/20 | train loss 0.0647, digit 99.57%, image 97.91% | val loss 0.0498, digit 99.68%, image 98.42%
+epoch 14/20 | train loss 0.0564, digit 99.64%, image 98.26% | val loss 0.0443, digit 99.71%, image 98.58%
+epoch 15/20 | train loss 0.0515, digit 99.64%, image 98.29% | val loss 0.0416, digit 99.75%, image 98.74%
+epoch 16/20 | train loss 0.0488, digit 99.66%, image 98.30% | val loss 0.0386, digit 99.77%, image 98.84%
+epoch 17/20 | train loss 0.0460, digit 99.68%, image 98.40% | val loss 0.0370, digit 99.76%, image 98.82%
+epoch 18/20 | train loss 0.0437, digit 99.72%, image 98.62% | val loss 0.0355, digit 99.79%, image 98.98%
+epoch 19/20 | train loss 0.0435, digit 99.71%, image 98.59% | val loss 0.0355, digit 99.78%, image 98.92%
+epoch 20/20 | train loss 0.0425, digit 99.75%, image 98.77% | val loss 0.0356, digit 99.77%, image 98.86%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/lr-0.0001/20261029-000821-3e8d7029/checkpoints/best.pt
+data/test/test0 digit 99.40%, image 97.00%
+data/test/test1 digit 99.40%, image 97.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 99.80%, image 99.00%
+data/test/test4 digit 99.60%, image 98.00%
+== lr-0.0003 (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.2396, digit 14.03%, image 0.02% | val loss 2.2202, digit 18.34%, image 0.02%
+epoch 02/20 | train loss 1.5577, digit 40.25%, image 1.70% | val loss 1.2738, digit 50.52%, image 1.72%
+epoch 03/20 | train loss 0.5989, digit 84.59%, image 47.25% | val loss 0.2615, digit 96.73%, image 84.68%
+epoch 04/20 | train loss 0.1428, digit 98.60%, image 93.37% | val loss 0.0844, digit 99.41%, image 97.14%
+epoch 05/20 | train loss 0.0635, digit 99.42%, image 97.20% | val loss 0.0458, digit 99.76%, image 98.80%
+epoch 06/20 | train loss 0.0386, digit 99.64%, image 98.19% | val loss 0.0405, digit 99.56%, image 97.88%
+epoch 07/20 | train loss 0.0281, digit 99.73%, image 98.70% | val loss 0.0208, digit 99.83%, image 99.16%
+epoch 08/20 | train loss 0.0212, digit 99.77%, image 98.86% | val loss 0.0264, digit 99.72%, image 98.58%
+epoch 09/20 | train loss 0.0163, digit 99.83%, image 99.15% | val loss 0.0117, digit 99.90%, image 99.48%
+epoch 10/20 | train loss 0.0158, digit 99.79%, image 98.94% | val loss 0.0213, digit 99.69%, image 98.48%
+epoch 11/20 | train loss 0.0122, digit 99.87%, image 99.34% | val loss 0.0141, digit 99.77%, image 98.86%
+epoch 12/20 | train loss 0.0093, digit 99.90%, image 99.51% | val loss 0.0106, digit 99.87%, image 99.36%
+epoch 13/20 | train loss 0.0080, digit 99.91%, image 99.55% | val loss 0.0075, digit 99.90%, image 99.50%
+epoch 14/20 | train loss 0.0066, digit 99.94%, image 99.71% | val loss 0.0072, digit 99.92%, image 99.60%
+epoch 15/20 | train loss 0.0064, digit 99.93%, image 99.64% | val loss 0.0060, digit 99.92%, image 99.60%
+epoch 16/20 | train loss 0.0056, digit 99.95%, image 99.77% | val loss 0.0047, digit 99.94%, image 99.72%
+epoch 17/20 | train loss 0.0051, digit 99.96%, image 99.78% | val loss 0.0053, digit 99.92%, image 99.60%
+epoch 18/20 | train loss 0.0045, digit 99.97%, image 99.86% | val loss 0.0044, digit 99.94%, image 99.68%
+epoch 19/20 | train loss 0.0045, digit 99.96%, image 99.80% | val loss 0.0044, digit 99.94%, image 99.70%
+epoch 20/20 | train loss 0.0045, digit 99.97%, image 99.85% | val loss 0.0045, digit 99.94%, image 99.72%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/lr-0.0003/20261029-001122-37e9db75/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== lr-0.003 (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.0667, digit 19.91%, image 0.10% | val loss 1.6625, digit 31.14%, image 0.14%
+epoch 02/20 | train loss 0.9475, digit 58.97%, image 9.32% | val loss 0.8518, digit 67.86%, image 12.28%
+epoch 03/20 | train loss 0.3042, digit 89.76%, image 60.39% | val loss 0.0714, digit 98.78%, image 94.14%
+epoch 04/20 | train loss 0.0518, digit 99.04%, image 95.35% | val loss 0.0590, digit 98.49%, image 92.64%
+epoch 05/20 | train loss 0.0350, digit 99.27%, image 96.45% | val loss 0.0142, digit 99.76%, image 98.80%
+epoch 06/20 | train loss 0.0250, digit 99.48%, image 97.46% | val loss 0.0374, digit 99.02%, image 95.12%
+epoch 07/20 | train loss 0.0166, digit 99.67%, image 98.39% | val loss 0.0146, digit 99.72%, image 98.64%
+epoch 08/20 | train loss 0.0163, digit 99.65%, image 98.36% | val loss 0.0515, digit 98.62%, image 93.30%
+epoch 09/20 | train loss 0.0113, digit 99.76%, image 98.81% | val loss 0.0117, digit 99.76%, image 98.80%
+epoch 10/20 | train loss 0.0082, digit 99.83%, image 99.17% | val loss 0.0076, digit 99.88%, image 99.38%
+epoch 11/20 | train loss 0.0074, digit 99.83%, image 99.17% | val loss 0.0044, digit 99.93%, image 99.64%
+epoch 12/20 | train loss 0.0062, digit 99.86%, image 99.29% | val loss 0.0032, digit 99.93%, image 99.64%
+epoch 13/20 | train loss 0.0032, digit 99.93%, image 99.65% | val loss 0.0024, digit 99.94%, image 99.70%
+epoch 14/20 | train loss 0.0032, digit 99.93%, image 99.66% | val loss 0.0027, digit 99.93%, image 99.66%
+epoch 15/20 | train loss 0.0025, digit 99.95%, image 99.76% | val loss 0.0023, digit 99.96%, image 99.78%
+epoch 16/20 | train loss 0.0029, digit 99.95%, image 99.74% | val loss 0.0015, digit 99.97%, image 99.84%
+epoch 17/20 | train loss 0.0018, digit 99.97%, image 99.87% | val loss 0.0008, digit 99.98%, image 99.88%
+epoch 18/20 | train loss 0.0013, digit 99.98%, image 99.89% | val loss 0.0008, digit 99.97%, image 99.86%
+epoch 19/20 | train loss 0.0012, digit 99.98%, image 99.89% | val loss 0.0009, digit 99.97%, image 99.86%
+epoch 20/20 | train loss 0.0016, digit 99.98%, image 99.90% | val loss 0.0010, digit 99.97%, image 99.86%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/lr-0.003/20261029-001419-2f9d7a00/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== lr-0.01 (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.3778, digit 10.06%, image 0.00% | val loss 2.3042, digit 10.04%, image 0.00%
+epoch 02/20 | train loss 2.3035, digit 10.29%, image 0.00% | val loss 2.3035, digit 10.17%, image 0.00%
+epoch 03/20 | train loss 2.3036, digit 10.17%, image 0.01% | val loss 2.3037, digit 10.04%, image 0.00%
+epoch 04/20 | train loss 2.3034, digit 10.38%, image 0.00% | val loss 2.3048, digit 9.86%, image 0.00%
+epoch 05/20 | train loss 2.3036, digit 10.08%, image 0.00% | val loss 2.3040, digit 9.89%, image 0.00%
+epoch 06/20 | train loss 2.3034, digit 10.16%, image 0.00% | val loss 2.3041, digit 9.83%, image 0.00%
+epoch 07/20 | train loss 2.3035, digit 10.37%, image 0.00% | val loss 2.3036, digit 10.15%, image 0.02%
+epoch 08/20 | train loss 2.2955, digit 11.25%, image 0.01% | val loss 2.3279, digit 12.33%, image 0.00%
+epoch 09/20 | train loss 1.9096, digit 26.08%, image 0.20% | val loss 1.5355, digit 40.30%, image 0.82%
+epoch 10/20 | train loss 0.7070, digit 70.71%, image 21.35% | val loss 0.6622, digit 74.64%, image 20.84%
+epoch 11/20 | train loss 0.1500, digit 95.72%, image 81.01% | val loss 0.0506, digit 98.98%, image 94.96%
+epoch 12/20 | train loss 0.0522, digit 98.81%, image 94.36% | val loss 0.0446, digit 98.77%, image 94.00%
+epoch 13/20 | train loss 0.0316, digit 99.33%, image 96.77% | val loss 0.0178, digit 99.65%, image 98.26%
+epoch 14/20 | train loss 0.0162, digit 99.66%, image 98.31% | val loss 0.0091, digit 99.85%, image 99.26%
+epoch 15/20 | train loss 0.0136, digit 99.73%, image 98.69% | val loss 0.0045, digit 99.92%, image 99.62%
+epoch 16/20 | train loss 0.0081, digit 99.84%, image 99.19% | val loss 0.0053, digit 99.90%, image 99.48%
+epoch 17/20 | train loss 0.0067, digit 99.87%, image 99.36% | val loss 0.0041, digit 99.93%, image 99.64%
+epoch 18/20 | train loss 0.0047, digit 99.92%, image 99.60% | val loss 0.0035, digit 99.93%, image 99.66%
+epoch 19/20 | train loss 0.0040, digit 99.92%, image 99.59% | val loss 0.0035, digit 99.93%, image 99.66%
+epoch 20/20 | train loss 0.0043, digit 99.93%, image 99.66% | val loss 0.0034, digit 99.94%, image 99.68%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/lr-0.01/20261029-001717-33494879/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.60%, image 98.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== resnet34-10k (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.0572, digit 19.55%, image 0.08% | val loss 1.5364, digit 34.45%, image 0.42%
+epoch 02/20 | train loss 0.9668, digit 57.29%, image 8.67% | val loss 1.5476, digit 50.24%, image 3.06%
+epoch 03/20 | train loss 0.2924, digit 91.56%, image 66.09% | val loss 0.0744, digit 98.92%, image 94.66%
+epoch 04/20 | train loss 0.0633, digit 98.96%, image 94.94% | val loss 0.0533, digit 98.90%, image 94.62%
+epoch 05/20 | train loss 0.0472, digit 99.10%, image 95.77% | val loss 0.0327, digit 99.53%, image 97.66%
+epoch 06/20 | train loss 0.0297, digit 99.46%, image 97.38% | val loss 0.0148, digit 99.75%, image 98.76%
+epoch 07/20 | train loss 0.0247, digit 99.51%, image 97.73% | val loss 0.3342, digit 91.33%, image 63.34%
+epoch 08/20 | train loss 0.0175, digit 99.68%, image 98.45% | val loss 0.0049, digit 99.94%, image 99.70%
+epoch 09/20 | train loss 0.0122, digit 99.75%, image 98.77% | val loss 0.0166, digit 99.63%, image 98.14%
+epoch 10/20 | train loss 0.0130, digit 99.75%, image 98.79% | val loss 0.0089, digit 99.85%, image 99.28%
+epoch 11/20 | train loss 0.0070, digit 99.87%, image 99.37% | val loss 0.0037, digit 99.92%, image 99.62%
+epoch 12/20 | train loss 0.0060, digit 99.89%, image 99.46% | val loss 0.0072, digit 99.84%, image 99.18%
+epoch 13/20 | train loss 0.0044, digit 99.93%, image 99.65% | val loss 0.0045, digit 99.92%, image 99.60%
+epoch 14/20 | train loss 0.0037, digit 99.93%, image 99.68% | val loss 0.0027, digit 99.95%, image 99.76%
+epoch 15/20 | train loss 0.0025, digit 99.96%, image 99.79% | val loss 0.0020, digit 99.96%, image 99.80%
+epoch 16/20 | train loss 0.0019, digit 99.98%, image 99.89% | val loss 0.0017, digit 99.96%, image 99.80%
+epoch 17/20 | train loss 0.0022, digit 99.96%, image 99.78% | val loss 0.0019, digit 99.96%, image 99.82%
+epoch 18/20 | train loss 0.0016, digit 99.97%, image 99.85% | val loss 0.0012, digit 99.97%, image 99.86%
+epoch 19/20 | train loss 0.0014, digit 99.98%, image 99.90% | val loss 0.0012, digit 99.97%, image 99.84%
+epoch 20/20 | train loss 0.0012, digit 99.99%, image 99.94% | val loss 0.0012, digit 99.96%, image 99.82%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/resnet34-10k/20261029-002014-095b36bc/checkpoints/best.pt
+data/test/test0 digit 99.60%, image 98.00%
+data/test/test1 digit 99.60%, image 98.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== captcha18-10k (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.9073, digit 10.09%, image 0.00% | val loss 2.5855, digit 9.77%, image 0.00%
+epoch 02/20 | train loss 2.2971, digit 12.31%, image 0.00% | val loss 2.1357, digit 16.58%, image 0.02%
+epoch 03/20 | train loss 1.7590, digit 29.02%, image 0.34% | val loss 1.3073, digit 43.99%, image 1.66%
+epoch 04/20 | train loss 0.9135, digit 65.42%, image 18.92% | val loss 0.9041, digit 77.52%, image 35.92%
+epoch 05/20 | train loss 0.2923, digit 90.98%, image 67.15% | val loss 0.2049, digit 93.98%, image 73.86%
+epoch 06/20 | train loss 0.0981, digit 97.23%, image 87.70% | val loss 0.0975, digit 97.22%, image 87.24%
+epoch 07/20 | train loss 0.0534, digit 98.54%, image 93.32% | val loss 0.0699, digit 98.20%, image 91.82%
+epoch 08/20 | train loss 0.0328, digit 99.16%, image 96.01% | val loss 0.0353, digit 99.16%, image 96.26%
+epoch 09/20 | train loss 0.0255, digit 99.34%, image 96.83% | val loss 0.0289, digit 99.34%, image 96.80%
+epoch 10/20 | train loss 0.0157, digit 99.57%, image 97.93% | val loss 0.0127, digit 99.66%, image 98.30%
+epoch 11/20 | train loss 0.0147, digit 99.58%, image 97.96% | val loss 0.0104, digit 99.74%, image 98.74%
+epoch 12/20 | train loss 0.0120, digit 99.73%, image 98.67% | val loss 0.0110, digit 99.72%, image 98.66%
+epoch 13/20 | train loss 0.0069, digit 99.85%, image 99.25% | val loss 0.0062, digit 99.86%, image 99.30%
+epoch 14/20 | train loss 0.0042, digit 99.89%, image 99.45% | val loss 0.0062, digit 99.87%, image 99.42%
+epoch 15/20 | train loss 0.0036, digit 99.92%, image 99.58% | val loss 0.0057, digit 99.88%, image 99.46%
+epoch 16/20 | train loss 0.0022, digit 99.95%, image 99.76% | val loss 0.0057, digit 99.89%, image 99.46%
+epoch 17/20 | train loss 0.0026, digit 99.95%, image 99.74% | val loss 0.0050, digit 99.90%, image 99.52%
+epoch 18/20 | train loss 0.0015, digit 99.95%, image 99.77% | val loss 0.0046, digit 99.90%, image 99.50%
+epoch 19/20 | train loss 0.0013, digit 99.96%, image 99.80% | val loss 0.0047, digit 99.90%, image 99.50%
+epoch 20/20 | train loss 0.0012, digit 99.96%, image 99.82% | val loss 0.0046, digit 99.90%, image 99.54%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/captcha18-10k/20261029-002416-a34e1eeb/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 99.60%, image 98.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 99.60%, image 98.00%
+data/test/test4 digit 99.80%, image 99.00%
+== captcha34-10k (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 3.0660, digit 10.00%, image 0.00% | val loss 11.1322, digit 10.18%, image 0.00%
+epoch 02/20 | train loss 2.3361, digit 10.04%, image 0.00% | val loss 3.1084, digit 10.22%, image 0.00%
+epoch 03/20 | train loss 2.3100, digit 10.09%, image 0.00% | val loss 2.3246, digit 9.86%, image 0.00%
+epoch 04/20 | train loss 2.3089, digit 10.17%, image 0.00% | val loss 2.3088, digit 10.60%, image 0.00%
+epoch 05/20 | train loss 2.2325, digit 13.58%, image 0.02% | val loss 2.5591, digit 14.43%, image 0.00%
+epoch 06/20 | train loss 1.5984, digit 34.48%, image 1.08% | val loss 1.1953, digit 48.98%, image 3.06%
+epoch 07/20 | train loss 0.6586, digit 74.90%, image 28.26% | val loss 0.7234, digit 73.57%, image 21.66%
+epoch 08/20 | train loss 0.2063, digit 93.57%, image 74.40% | val loss 0.0784, digit 97.92%, image 90.50%
+epoch 09/20 | train loss 0.0783, digit 97.86%, image 90.28% | val loss 0.0390, digit 99.05%, image 95.68%
+epoch 10/20 | train loss 0.0405, digit 98.92%, image 94.98% | val loss 0.0197, digit 99.52%, image 97.84%
+epoch 11/20 | train loss 0.0269, digit 99.33%, image 96.75% | val loss 0.0303, digit 99.21%, image 96.26%
+epoch 12/20 | train loss 0.0171, digit 99.54%, image 97.81% | val loss 0.0139, digit 99.68%, image 98.42%
+epoch 13/20 | train loss 0.0106, digit 99.71%, image 98.54% | val loss 0.0109, digit 99.75%, image 98.78%
+epoch 14/20 | train loss 0.0096, digit 99.76%, image 98.81% | val loss 0.0108, digit 99.72%, image 98.60%
+epoch 15/20 | train loss 0.0060, digit 99.85%, image 99.26% | val loss 0.0102, digit 99.75%, image 98.78%
+epoch 16/20 | train loss 0.0047, digit 99.87%, image 99.35% | val loss 0.0071, digit 99.84%, image 99.20%
+epoch 17/20 | train loss 0.0026, digit 99.93%, image 99.65% | val loss 0.0049, digit 99.89%, image 99.44%
+epoch 18/20 | train loss 0.0024, digit 99.92%, image 99.62% | val loss 0.0055, digit 99.86%, image 99.32%
+epoch 19/20 | train loss 0.0024, digit 99.95%, image 99.77% | val loss 0.0051, digit 99.88%, image 99.42%
+epoch 20/20 | train loss 0.0027, digit 99.93%, image 99.64% | val loss 0.0062, digit 99.87%, image 99.34%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/captcha34-10k/20261029-002715-bd4145e6/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 99.80%, image 99.00%
+data/test/test4 digit 99.80%, image 99.00%
+### END ablate seed 43 00:31:18
+### START bsx seed 43 00:31:18
+== bsx16-10k (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.7617, digit 29.41%, image 0.84% | val loss 1.0911, digit 51.21%, image 3.44%
+epoch 02/20 | train loss 0.5260, digit 79.07%, image 41.00% | val loss 0.0610, digit 99.26%, image 96.36%
+epoch 03/20 | train loss 0.0819, digit 98.38%, image 92.41% | val loss 0.0395, digit 99.36%, image 96.90%
+epoch 04/20 | train loss 0.0497, digit 98.98%, image 95.15% | val loss 0.3244, digit 91.16%, image 66.70%
+epoch 05/20 | train loss 0.0416, digit 99.04%, image 95.40% | val loss 0.0119, digit 99.78%, image 98.92%
+epoch 06/20 | train loss 0.0274, digit 99.38%, image 97.08% | val loss 0.0463, digit 98.98%, image 95.08%
+epoch 07/20 | train loss 0.0256, digit 99.41%, image 97.26% | val loss 0.0063, digit 99.84%, image 99.20%
+epoch 08/20 | train loss 0.0203, digit 99.57%, image 97.89% | val loss 0.0028, digit 99.93%, image 99.66%
+epoch 09/20 | train loss 0.0134, digit 99.68%, image 98.45% | val loss 0.0119, digit 99.70%, image 98.52%
+epoch 10/20 | train loss 0.0163, digit 99.62%, image 98.19% | val loss 0.0044, digit 99.90%, image 99.52%
+epoch 11/20 | train loss 0.0104, digit 99.78%, image 98.96% | val loss 0.0052, digit 99.89%, image 99.46%
+epoch 12/20 | train loss 0.0081, digit 99.84%, image 99.21% | val loss 0.0010, digit 99.98%, image 99.92%
+epoch 13/20 | train loss 0.0069, digit 99.87%, image 99.37% | val loss 0.0006, digit 99.98%, image 99.92%
+epoch 14/20 | train loss 0.0035, digit 99.94%, image 99.72% | val loss 0.0013, digit 99.98%, image 99.90%
+epoch 15/20 | train loss 0.0041, digit 99.92%, image 99.60% | val loss 0.0008, digit 99.99%, image 99.94%
+epoch 16/20 | train loss 0.0030, digit 99.94%, image 99.71% | val loss 0.0005, digit 99.98%, image 99.92%
+epoch 17/20 | train loss 0.0024, digit 99.95%, image 99.76% | val loss 0.0003, digit 99.99%, image 99.94%
+epoch 18/20 | train loss 0.0012, digit 99.98%, image 99.88% | val loss 0.0001, digit 100.00%, image 100.00%
+epoch 19/20 | train loss 0.0017, digit 99.98%, image 99.90% | val loss 0.0001, digit 100.00%, image 100.00%
+epoch 20/20 | train loss 0.0011, digit 99.98%, image 99.89% | val loss 0.0001, digit 100.00%, image 100.00%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx16-10k/20261029-003119-037d19eb/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== bsx32-10k (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.8556, digit 26.65%, image 0.40% | val loss 1.7544, digit 37.12%, image 0.48%
+epoch 02/20 | train loss 0.5505, digit 80.60%, image 44.44% | val loss 0.1930, digit 94.80%, image 76.00%
+epoch 03/20 | train loss 0.0771, digit 98.76%, image 94.05% | val loss 0.1455, digit 96.06%, image 81.76%
+epoch 04/20 | train loss 0.0369, digit 99.39%, image 96.98% | val loss 0.0288, digit 99.40%, image 97.08%
+epoch 05/20 | train loss 0.0319, digit 99.34%, image 96.78% | val loss 0.0145, digit 99.75%, image 98.74%
+epoch 06/20 | train loss 0.0233, digit 99.53%, image 97.74% | val loss 0.0381, digit 99.05%, image 95.38%
+epoch 07/20 | train loss 0.0192, digit 99.61%, image 98.10% | val loss 0.0058, digit 99.92%, image 99.62%
+epoch 08/20 | train loss 0.0134, digit 99.74%, image 98.71% | val loss 0.0048, digit 99.92%, image 99.58%
+epoch 09/20 | train loss 0.0167, digit 99.64%, image 98.19% | val loss 0.0044, digit 99.90%, image 99.52%
+epoch 10/20 | train loss 0.0115, digit 99.76%, image 98.83% | val loss 0.0151, digit 99.59%, image 97.96%
+epoch 11/20 | train loss 0.0082, digit 99.83%, image 99.18% | val loss 0.0018, digit 99.97%, image 99.86%
+epoch 12/20 | train loss 0.0080, digit 99.84%, image 99.25% | val loss 0.0062, digit 99.86%, image 99.32%
+epoch 13/20 | train loss 0.0068, digit 99.85%, image 99.27% | val loss 0.0013, digit 99.97%, image 99.84%
+epoch 14/20 | train loss 0.0041, digit 99.90%, image 99.52% | val loss 0.0020, digit 99.96%, image 99.82%
+epoch 15/20 | train loss 0.0031, digit 99.94%, image 99.70% | val loss 0.0011, digit 99.98%, image 99.88%
+epoch 16/20 | train loss 0.0021, digit 99.96%, image 99.80% | val loss 0.0015, digit 99.97%, image 99.86%
+epoch 17/20 | train loss 0.0017, digit 99.97%, image 99.84% | val loss 0.0013, digit 99.98%, image 99.88%
+epoch 18/20 | train loss 0.0015, digit 99.97%, image 99.87% | val loss 0.0009, digit 99.98%, image 99.92%
+epoch 19/20 | train loss 0.0011, digit 99.98%, image 99.90% | val loss 0.0009, digit 99.98%, image 99.92%
+epoch 20/20 | train loss 0.0014, digit 99.98%, image 99.88% | val loss 0.0009, digit 99.98%, image 99.90%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx32-10k/20261029-003513-1abd84eb/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== bsx64-10k (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.0380, digit 20.15%, image 0.04% | val loss 1.7401, digit 29.49%, image 0.12%
+epoch 02/20 | train loss 0.8804, digit 65.57%, image 16.19% | val loss 0.5266, digit 82.20%, image 38.12%
+epoch 03/20 | train loss 0.1598, digit 97.02%, image 86.73% | val loss 0.0495, digit 99.55%, image 97.80%
+epoch 04/20 | train loss 0.0519, digit 99.23%, image 96.25% | val loss 0.0671, digit 98.30%, image 91.88%
+epoch 05/20 | train loss 0.0284, digit 99.56%, image 97.88% | val loss 0.1603, digit 95.44%, image 78.96%
+epoch 06/20 | train loss 0.0191, digit 99.69%, image 98.47% | val loss 0.0131, digit 99.83%, image 99.14%
+epoch 07/20 | train loss 0.0187, digit 99.64%, image 98.27% | val loss 0.0094, digit 99.88%, image 99.42%
+epoch 08/20 | train loss 0.0113, digit 99.81%, image 99.06% | val loss 0.0153, digit 99.72%, image 98.62%
+epoch 09/20 | train loss 0.0105, digit 99.82%, image 99.09% | val loss 0.0163, digit 99.64%, image 98.22%
+epoch 10/20 | train loss 0.0121, digit 99.78%, image 98.96% | val loss 0.0063, digit 99.93%, image 99.64%
+epoch 11/20 | train loss 0.0055, digit 99.91%, image 99.57% | val loss 0.0038, digit 99.94%, image 99.72%
+epoch 12/20 | train loss 0.0043, digit 99.92%, image 99.62% | val loss 0.0124, digit 99.71%, image 98.56%
+epoch 13/20 | train loss 0.0048, digit 99.92%, image 99.58% | val loss 0.0029, digit 99.96%, image 99.78%
+epoch 14/20 | train loss 0.0036, digit 99.93%, image 99.67% | val loss 0.0025, digit 99.96%, image 99.80%
+epoch 15/20 | train loss 0.0029, digit 99.95%, image 99.74% | val loss 0.0025, digit 99.96%, image 99.78%
+epoch 16/20 | train loss 0.0023, digit 99.96%, image 99.82% | val loss 0.0016, digit 99.96%, image 99.80%
+epoch 17/20 | train loss 0.0019, digit 99.98%, image 99.88% | val loss 0.0014, digit 99.98%, image 99.92%
+epoch 18/20 | train loss 0.0016, digit 99.96%, image 99.82% | val loss 0.0015, digit 99.97%, image 99.86%
+epoch 19/20 | train loss 0.0013, digit 99.98%, image 99.92% | val loss 0.0015, digit 99.97%, image 99.86%
+epoch 20/20 | train loss 0.0018, digit 99.97%, image 99.88% | val loss 0.0016, digit 99.98%, image 99.88%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx64-10k/20261029-003817-1c02b9fc/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== bsx128-10k (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.1933, digit 15.53%, image 0.01% | val loss 2.2381, digit 18.84%, image 0.04%
+epoch 02/20 | train loss 1.3266, digit 47.71%, image 4.35% | val loss 0.9444, digit 64.12%, image 8.74%
+epoch 03/20 | train loss 0.4352, digit 87.94%, image 55.76% | val loss 0.7046, digit 71.05%, image 16.98%
+epoch 04/20 | train loss 0.0897, digit 98.93%, image 94.93% | val loss 0.0780, digit 98.84%, image 94.44%
+epoch 05/20 | train loss 0.0377, digit 99.58%, image 97.93% | val loss 0.0262, digit 99.80%, image 98.98%
+epoch 06/20 | train loss 0.0253, digit 99.65%, image 98.28% | val loss 0.0710, digit 97.99%, image 90.40%
+epoch 07/20 | train loss 0.0170, digit 99.78%, image 98.91% | val loss 0.0312, digit 99.33%, image 96.74%
+epoch 08/20 | train loss 0.0158, digit 99.78%, image 98.90% | val loss 0.0250, digit 99.54%, image 97.74%
+epoch 09/20 | train loss 0.0113, digit 99.82%, image 99.11% | val loss 0.0074, digit 99.96%, image 99.80%
+epoch 10/20 | train loss 0.0085, digit 99.88%, image 99.41% | val loss 0.0231, digit 99.39%, image 97.54%
+epoch 11/20 | train loss 0.0074, digit 99.88%, image 99.41% | val loss 0.0072, digit 99.92%, image 99.62%
+epoch 12/20 | train loss 0.0054, digit 99.92%, image 99.59% | val loss 0.0054, digit 99.92%, image 99.62%
+epoch 13/20 | train loss 0.0049, digit 99.93%, image 99.68% | val loss 0.0044, digit 99.94%, image 99.76%
+epoch 14/20 | train loss 0.0044, digit 99.94%, image 99.71% | val loss 0.0035, digit 99.96%, image 99.80%
+epoch 15/20 | train loss 0.0030, digit 99.97%, image 99.87% | val loss 0.0027, digit 99.96%, image 99.78%
+epoch 16/20 | train loss 0.0029, digit 99.96%, image 99.82% | val loss 0.0027, digit 99.95%, image 99.76%
+epoch 17/20 | train loss 0.0025, digit 99.97%, image 99.87% | val loss 0.0023, digit 99.97%, image 99.86%
+epoch 18/20 | train loss 0.0028, digit 99.96%, image 99.80% | val loss 0.0024, digit 99.97%, image 99.86%
+epoch 19/20 | train loss 0.0022, digit 99.98%, image 99.90% | val loss 0.0022, digit 99.98%, image 99.88%
+epoch 20/20 | train loss 0.0021, digit 99.98%, image 99.92% | val loss 0.0021, digit 99.98%, image 99.88%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx128-10k/20261029-004119-d00ef10b/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== bsx256-10k (seed 43) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.2938, digit 12.39%, image 0.00% | val loss 2.2739, digit 15.03%, image 0.02%
+epoch 02/20 | train loss 1.8481, digit 27.91%, image 0.15% | val loss 1.6010, digit 40.49%, image 0.58%
+epoch 03/20 | train loss 1.0108, digit 64.17%, image 11.88% | val loss 1.2820, digit 55.20%, image 4.52%
+epoch 04/20 | train loss 0.3698, digit 92.14%, image 67.38% | val loss 0.3611, digit 91.77%, image 64.82%
+epoch 05/20 | train loss 0.1078, digit 98.83%, image 94.38% | val loss 0.0716, digit 99.30%, image 96.56%
+epoch 06/20 | train loss 0.0482, digit 99.51%, image 97.62% | val loss 0.1019, digit 97.90%, image 90.22%
+epoch 07/20 | train loss 0.0313, digit 99.67%, image 98.38% | val loss 0.0813, digit 98.14%, image 91.00%
+epoch 08/20 | train loss 0.0233, digit 99.72%, image 98.59% | val loss 0.0321, digit 99.54%, image 97.72%
+epoch 09/20 | train loss 0.0179, digit 99.78%, image 98.91% | val loss 0.0167, digit 99.84%, image 99.22%
+epoch 10/20 | train loss 0.0123, digit 99.87%, image 99.36% | val loss 0.0124, digit 99.88%, image 99.42%
+epoch 11/20 | train loss 0.0106, digit 99.90%, image 99.51% | val loss 0.0167, digit 99.76%, image 98.82%
+epoch 12/20 | train loss 0.0095, digit 99.91%, image 99.57% | val loss 0.0081, digit 99.92%, image 99.58%
+epoch 13/20 | train loss 0.0083, digit 99.91%, image 99.56% | val loss 0.0086, digit 99.91%, image 99.54%
+epoch 14/20 | train loss 0.0072, digit 99.93%, image 99.65% | val loss 0.0060, digit 99.94%, image 99.68%
+epoch 15/20 | train loss 0.0059, digit 99.95%, image 99.74% | val loss 0.0064, digit 99.91%, image 99.56%
+epoch 16/20 | train loss 0.0054, digit 99.95%, image 99.75% | val loss 0.0059, digit 99.93%, image 99.66%
+epoch 17/20 | train loss 0.0049, digit 99.95%, image 99.77% | val loss 0.0055, digit 99.93%, image 99.66%
+epoch 18/20 | train loss 0.0048, digit 99.96%, image 99.83% | val loss 0.0051, digit 99.94%, image 99.68%
+epoch 19/20 | train loss 0.0043, digit 99.98%, image 99.88% | val loss 0.0050, digit 99.94%, image 99.70%
+epoch 20/20 | train loss 0.0045, digit 99.96%, image 99.81% | val loss 0.0050, digit 99.94%, image 99.70%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx256-10k/20261029-004429-3acf8c22/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+### END bsx seed 43 00:47:54
+### START size seed 44 00:47:54
+== size-50000 (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 50000
+validation images: 5000
+epoch 01/20 | train loss 0.6146, digit 77.19%, image 62.70% | val loss 0.0165, digit 99.78%, image 98.92%
+epoch 02/20 | train loss 0.0194, digit 99.62%, image 98.17% | val loss 0.0543, digit 98.37%, image 92.06%
+epoch 03/20 | train loss 0.0139, digit 99.71%, image 98.58% | val loss 0.0090, digit 99.81%, image 99.06%
+epoch 04/20 | train loss 0.0104, digit 99.77%, image 98.86% | val loss 0.0019, digit 99.97%, image 99.86%
+epoch 05/20 | train loss 0.0099, digit 99.79%, image 98.96% | val loss 0.0052, digit 99.88%, image 99.42%
+epoch 06/20 | train loss 0.0072, digit 99.84%, image 99.20% | val loss 0.0046, digit 99.90%, image 99.50%
+epoch 07/20 | train loss 0.0070, digit 99.85%, image 99.28% | val loss 0.0053, digit 99.88%, image 99.42%
+epoch 08/20 | train loss 0.0060, digit 99.86%, image 99.31% | val loss 0.0026, digit 99.93%, image 99.66%
+epoch 09/20 | train loss 0.0046, digit 99.90%, image 99.51% | val loss 0.0031, digit 99.90%, image 99.50%
+epoch 10/20 | train loss 0.0036, digit 99.92%, image 99.59% | val loss 0.0001, digit 100.00%, image 100.00%
+epoch 11/20 | train loss 0.0026, digit 99.94%, image 99.71% | val loss 0.0003, digit 100.00%, image 99.98%
+epoch 12/20 | train loss 0.0019, digit 99.96%, image 99.79% | val loss 0.0013, digit 99.97%, image 99.84%
+epoch 13/20 | train loss 0.0021, digit 99.95%, image 99.75% | val loss 0.0001, digit 100.00%, image 100.00%
+epoch 14/20 | train loss 0.0010, digit 99.98%, image 99.89% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 15/20 | train loss 0.0012, digit 99.98%, image 99.89% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 16/20 | train loss 0.0008, digit 99.98%, image 99.93% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 17/20 | train loss 0.0006, digit 99.99%, image 99.94% | val loss 0.0001, digit 100.00%, image 99.98%
+epoch 18/20 | train loss 0.0004, digit 99.99%, image 99.94% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 19/20 | train loss 0.0005, digit 99.99%, image 99.96% | val loss 0.0000, digit 100.00%, image 100.00%
+epoch 20/20 | train loss 0.0004, digit 99.99%, image 99.95% | val loss 0.0000, digit 100.00%, image 100.00%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-50000/20261029-004755-c755a248/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== size-20000 (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 20000
+validation images: 5000
+epoch 01/20 | train loss 1.4901, digit 41.27%, image 7.61% | val loss 0.9081, digit 64.92%, image 11.66%
+epoch 02/20 | train loss 0.1056, digit 98.24%, image 92.03% | val loss 0.2527, digit 92.39%, image 72.92%
+epoch 03/20 | train loss 0.0276, digit 99.54%, image 97.78% | val loss 0.0273, digit 99.34%, image 96.74%
+epoch 04/20 | train loss 0.0211, digit 99.61%, image 98.08% | val loss 0.0308, digit 99.24%, image 96.18%
+epoch 05/20 | train loss 0.0141, digit 99.72%, image 98.66% | val loss 0.0178, digit 99.55%, image 97.76%
+epoch 06/20 | train loss 0.0132, digit 99.73%, image 98.68% | val loss 0.0191, digit 99.59%, image 97.96%
+epoch 07/20 | train loss 0.0102, digit 99.79%, image 98.99% | val loss 0.0371, digit 98.99%, image 95.06%
+epoch 08/20 | train loss 0.0071, digit 99.85%, image 99.25% | val loss 0.0020, digit 99.98%, image 99.88%
+epoch 09/20 | train loss 0.0051, digit 99.90%, image 99.50% | val loss 0.0019, digit 99.97%, image 99.84%
+epoch 10/20 | train loss 0.0054, digit 99.87%, image 99.35% | val loss 0.0019, digit 99.98%, image 99.88%
+epoch 11/20 | train loss 0.0037, digit 99.93%, image 99.64% | val loss 0.0022, digit 99.96%, image 99.80%
+epoch 12/20 | train loss 0.0047, digit 99.90%, image 99.50% | val loss 0.0016, digit 99.96%, image 99.80%
+epoch 13/20 | train loss 0.0035, digit 99.92%, image 99.63% | val loss 0.0008, digit 99.99%, image 99.94%
+epoch 14/20 | train loss 0.0023, digit 99.94%, image 99.71% | val loss 0.0004, digit 100.00%, image 99.98%
+epoch 15/20 | train loss 0.0015, digit 99.96%, image 99.82% | val loss 0.0003, digit 100.00%, image 99.98%
+epoch 16/20 | train loss 0.0011, digit 99.97%, image 99.85% | val loss 0.0004, digit 100.00%, image 99.98%
+epoch 17/20 | train loss 0.0011, digit 99.97%, image 99.87% | val loss 0.0002, digit 100.00%, image 100.00%
+epoch 18/20 | train loss 0.0008, digit 99.98%, image 99.91% | val loss 0.0001, digit 100.00%, image 100.00%
+epoch 19/20 | train loss 0.0006, digit 99.98%, image 99.93% | val loss 0.0001, digit 100.00%, image 100.00%
+epoch 20/20 | train loss 0.0007, digit 99.99%, image 99.94% | val loss 0.0001, digit 100.00%, image 100.00%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-20000/20261029-010015-dc34e0d0/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 99.80%, image 99.00%
+data/test/test4 digit 100.00%, image 100.00%
+== baseline-10k (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.9532, digit 23.19%, image 0.20% | val loss 1.6079, digit 33.26%, image 0.32%
+epoch 02/20 | train loss 0.7659, digit 72.31%, image 27.95% | val loss 0.6729, digit 73.35%, image 22.04%
+epoch 03/20 | train loss 0.1207, digit 98.19%, image 91.48% | val loss 0.1423, digit 95.82%, image 80.80%
+epoch 04/20 | train loss 0.0395, digit 99.49%, image 97.52% | val loss 0.0856, digit 97.80%, image 89.52%
+epoch 05/20 | train loss 0.0275, digit 99.57%, image 97.90% | val loss 0.0224, digit 99.57%, image 97.88%
+epoch 06/20 | train loss 0.0212, digit 99.65%, image 98.31% | val loss 0.0209, digit 99.63%, image 98.20%
+epoch 07/20 | train loss 0.0152, digit 99.72%, image 98.65% | val loss 0.0301, digit 99.24%, image 96.30%
+epoch 08/20 | train loss 0.0134, digit 99.75%, image 98.79% | val loss 0.0092, digit 99.86%, image 99.28%
+epoch 09/20 | train loss 0.0107, digit 99.80%, image 99.05% | val loss 0.0077, digit 99.86%, image 99.28%
+epoch 10/20 | train loss 0.0081, digit 99.85%, image 99.26% | val loss 0.0095, digit 99.82%, image 99.12%
+epoch 11/20 | train loss 0.0066, digit 99.87%, image 99.34% | val loss 0.0054, digit 99.89%, image 99.44%
+epoch 12/20 | train loss 0.0062, digit 99.88%, image 99.39% | val loss 0.0025, digit 99.97%, image 99.84%
+epoch 13/20 | train loss 0.0052, digit 99.90%, image 99.53% | val loss 0.0027, digit 99.95%, image 99.74%
+epoch 14/20 | train loss 0.0026, digit 99.96%, image 99.80% | val loss 0.0016, digit 99.97%, image 99.86%
+epoch 15/20 | train loss 0.0022, digit 99.96%, image 99.79% | val loss 0.0016, digit 99.97%, image 99.84%
+epoch 16/20 | train loss 0.0032, digit 99.95%, image 99.75% | val loss 0.0010, digit 99.98%, image 99.88%
+epoch 17/20 | train loss 0.0020, digit 99.97%, image 99.83% | val loss 0.0010, digit 99.98%, image 99.92%
+epoch 18/20 | train loss 0.0014, digit 99.98%, image 99.92% | val loss 0.0008, digit 100.00%, image 99.98%
+epoch 19/20 | train loss 0.0012, digit 99.99%, image 99.94% | val loss 0.0007, digit 100.00%, image 99.98%
+epoch 20/20 | train loss 0.0012, digit 99.99%, image 99.93% | val loss 0.0007, digit 100.00%, image 99.98%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/baseline-10k/20261029-010531-63f186d6/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== size-5000 (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 5000
+validation images: 5000
+epoch 01/20 | train loss 2.2550, digit 14.02%, image 0.02% | val loss 2.4277, digit 14.71%, image 0.00%
+epoch 02/20 | train loss 1.7561, digit 29.05%, image 0.24% | val loss 1.9340, digit 24.99%, image 0.08%
+epoch 03/20 | train loss 1.0804, digit 57.84%, image 7.85% | val loss 1.3123, digit 52.31%, image 2.72%
+epoch 04/20 | train loss 0.4700, digit 87.09%, image 52.42% | val loss 0.4154, digit 86.75%, image 47.22%
+epoch 05/20 | train loss 0.1321, digit 98.39%, image 92.29% | val loss 0.2957, digit 90.95%, image 64.84%
+epoch 06/20 | train loss 0.0573, digit 99.46%, image 97.36% | val loss 0.0446, digit 99.58%, image 97.90%
+epoch 07/20 | train loss 0.0356, digit 99.66%, image 98.36% | val loss 0.0253, digit 99.71%, image 98.56%
+epoch 08/20 | train loss 0.0270, digit 99.71%, image 98.56% | val loss 0.0223, digit 99.67%, image 98.36%
+epoch 09/20 | train loss 0.0228, digit 99.68%, image 98.42% | val loss 0.0160, digit 99.84%, image 99.18%
+epoch 10/20 | train loss 0.0167, digit 99.81%, image 99.08% | val loss 0.0178, digit 99.77%, image 98.84%
+epoch 11/20 | train loss 0.0130, digit 99.84%, image 99.22% | val loss 0.0130, digit 99.72%, image 98.80%
+epoch 12/20 | train loss 0.0095, digit 99.91%, image 99.60% | val loss 0.0073, digit 99.91%, image 99.56%
+epoch 13/20 | train loss 0.0071, digit 99.94%, image 99.72% | val loss 0.0080, digit 99.90%, image 99.50%
+epoch 14/20 | train loss 0.0067, digit 99.94%, image 99.68% | val loss 0.0065, digit 99.92%, image 99.58%
+epoch 15/20 | train loss 0.0053, digit 99.95%, image 99.74% | val loss 0.0049, digit 99.94%, image 99.68%
+epoch 16/20 | train loss 0.0047, digit 99.97%, image 99.84% | val loss 0.0045, digit 99.94%, image 99.72%
+epoch 17/20 | train loss 0.0048, digit 99.97%, image 99.86% | val loss 0.0041, digit 99.95%, image 99.76%
+epoch 18/20 | train loss 0.0042, digit 99.96%, image 99.82% | val loss 0.0039, digit 99.96%, image 99.78%
+epoch 19/20 | train loss 0.0041, digit 99.97%, image 99.86% | val loss 0.0040, digit 99.95%, image 99.74%
+epoch 20/20 | train loss 0.0039, digit 99.98%, image 99.90% | val loss 0.0038, digit 99.94%, image 99.72%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-5000/20261029-010829-5fd6e11b/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== size-2000 (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 2000
+validation images: 5000
+epoch 01/20 | train loss 2.3597, digit 10.69%, image 0.00% | val loss 2.6120, digit 10.31%, image 0.00%
+epoch 02/20 | train loss 2.2712, digit 14.19%, image 0.00% | val loss 2.3172, digit 14.50%, image 0.00%
+epoch 03/20 | train loss 2.1151, digit 19.21%, image 0.00% | val loss 2.4476, digit 16.12%, image 0.00%
+epoch 04/20 | train loss 1.8975, digit 26.43%, image 0.25% | val loss 1.8308, digit 27.08%, image 0.26%
+epoch 05/20 | train loss 1.6791, digit 33.47%, image 0.55% | val loss 3.0705, digit 22.38%, image 0.00%
+epoch 06/20 | train loss 1.3651, digit 46.25%, image 1.66% | val loss 1.7271, digit 32.04%, image 0.14%
+epoch 07/20 | train loss 1.0941, digit 59.94%, image 6.50% | val loss 1.1328, digit 55.76%, image 4.44%
+epoch 08/20 | train loss 0.7850, digit 75.64%, image 23.74% | val loss 0.7736, digit 72.57%, image 17.46%
+epoch 09/20 | train loss 0.5139, digit 87.94%, image 51.81% | val loss 1.0230, digit 58.26%, image 6.82%
+epoch 10/20 | train loss 0.3763, digit 91.89%, image 65.17% | val loss 0.4835, digit 82.86%, image 38.00%
+epoch 11/20 | train loss 0.2392, digit 96.88%, image 85.28% | val loss 0.2721, digit 95.15%, image 78.00%
+epoch 12/20 | train loss 0.1663, digit 98.30%, image 91.89% | val loss 0.1586, digit 98.61%, image 93.24%
+epoch 13/20 | train loss 0.1219, digit 98.98%, image 95.01% | val loss 0.2109, digit 94.36%, image 74.98%
+epoch 14/20 | train loss 0.0946, digit 99.53%, image 97.63% | val loss 0.0998, digit 99.20%, image 96.18%
+epoch 15/20 | train loss 0.0774, digit 99.63%, image 98.14% | val loss 0.0810, digit 99.42%, image 97.18%
+epoch 16/20 | train loss 0.0685, digit 99.68%, image 98.39% | val loss 0.0752, digit 99.52%, image 97.68%
+epoch 17/20 | train loss 0.0615, digit 99.69%, image 98.44% | val loss 0.0704, digit 99.54%, image 97.76%
+epoch 18/20 | train loss 0.0567, digit 99.83%, image 99.14% | val loss 0.0643, digit 99.56%, image 97.86%
+epoch 19/20 | train loss 0.0550, digit 99.79%, image 98.99% | val loss 0.0635, digit 99.61%, image 98.08%
+epoch 20/20 | train loss 0.0563, digit 99.73%, image 98.64% | val loss 0.0632, digit 99.62%, image 98.14%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-2000/20261029-011016-2a72cc3e/checkpoints/best.pt
+data/test/test0 digit 99.20%, image 96.00%
+data/test/test1 digit 99.00%, image 95.00%
+data/test/test2 digit 99.40%, image 97.00%
+data/test/test3 digit 99.20%, image 97.00%
+data/test/test4 digit 99.60%, image 98.00%
+== size-1000 (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 1000
+validation images: 5000
+epoch 01/20 | train loss 2.3700, digit 11.06%, image 0.00% | val loss 2.7865, digit 10.10%, image 0.00%
+epoch 02/20 | train loss 2.3206, digit 11.96%, image 0.00% | val loss 2.6663, digit 10.44%, image 0.00%
+epoch 03/20 | train loss 2.2577, digit 13.81%, image 0.00% | val loss 2.6564, digit 11.96%, image 0.00%
+epoch 04/20 | train loss 2.1693, digit 18.23%, image 0.00% | val loss 2.4560, digit 11.84%, image 0.00%
+epoch 05/20 | train loss 2.0473, digit 21.79%, image 0.21% | val loss 2.5659, digit 13.83%, image 0.00%
+epoch 06/20 | train loss 1.9198, digit 26.42%, image 0.00% | val loss 2.0938, digit 21.83%, image 0.02%
+epoch 07/20 | train loss 1.8005, digit 32.27%, image 0.00% | val loss 1.8757, digit 27.14%, image 0.04%
+epoch 08/20 | train loss 1.6695, digit 37.21%, image 0.52% | val loss 1.8578, digit 27.75%, image 0.02%
+epoch 09/20 | train loss 1.5207, digit 43.58%, image 0.94% | val loss 2.5202, digit 24.82%, image 0.04%
+epoch 10/20 | train loss 1.3386, digit 52.06%, image 3.02% | val loss 1.7505, digit 33.34%, image 0.20%
+epoch 11/20 | train loss 1.1645, digit 60.83%, image 6.35% | val loss 1.4406, digit 45.22%, image 1.16%
+epoch 12/20 | train loss 1.0036, digit 69.25%, image 14.17% | val loss 1.4895, digit 41.93%, image 1.24%
+epoch 13/20 | train loss 0.8410, digit 76.40%, image 22.81% | val loss 0.9762, digit 69.22%, image 14.34%
+epoch 14/20 | train loss 0.7093, digit 82.48%, image 35.00% | val loss 0.8715, digit 74.05%, image 20.22%
+epoch 15/20 | train loss 0.5967, digit 87.62%, image 50.21% | val loss 0.8081, digit 76.45%, image 24.28%
+epoch 16/20 | train loss 0.5260, digit 90.71%, image 61.04% | val loss 0.7114, digit 81.16%, image 33.42%
+epoch 17/20 | train loss 0.4698, digit 92.73%, image 67.71% | val loss 0.6234, digit 85.88%, image 44.64%
+epoch 18/20 | train loss 0.4373, digit 93.79%, image 71.25% | val loss 0.5932, digit 86.85%, image 48.36%
+epoch 19/20 | train loss 0.4206, digit 94.31%, image 74.58% | val loss 0.5636, digit 88.24%, image 52.24%
+epoch 20/20 | train loss 0.4186, digit 94.04%, image 73.44% | val loss 0.5561, digit 88.30%, image 52.38%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-1000/20261029-011122-26563bc7/checkpoints/best.pt
+data/test/test0 digit 83.60%, image 36.00%
+data/test/test1 digit 81.60%, image 33.00%
+data/test/test2 digit 87.60%, image 50.00%
+data/test/test3 digit 83.00%, image 42.00%
+data/test/test4 digit 87.40%, image 49.00%
+### END size seed 44 01:12:11
+### START ablate seed 44 01:12:11
+== noaug-10k (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.8432, digit 27.00%, image 0.52% | val loss 1.3306, digit 46.05%, image 1.72%
+epoch 02/20 | train loss 0.4845, digit 85.24%, image 53.81% | val loss 0.2494, digit 92.98%, image 69.96%
+epoch 03/20 | train loss 0.0591, digit 99.41%, image 97.11% | val loss 0.1076, digit 97.33%, image 87.44%
+epoch 04/20 | train loss 0.0198, digit 99.86%, image 99.29% | val loss 0.0154, digit 99.76%, image 98.82%
+epoch 05/20 | train loss 0.0108, digit 99.90%, image 99.50% | val loss 0.1022, digit 96.97%, image 87.32%
+epoch 06/20 | train loss 0.0162, digit 99.78%, image 98.90% | val loss 0.0123, digit 99.78%, image 98.90%
+epoch 07/20 | train loss 0.0076, digit 99.91%, image 99.56% | val loss 0.0047, digit 99.93%, image 99.66%
+epoch 08/20 | train loss 0.0019, digit 100.00%, image 100.00% | val loss 0.0023, digit 99.96%, image 99.82%
+epoch 09/20 | train loss 0.0012, digit 100.00%, image 100.00% | val loss 0.0019, digit 99.98%, image 99.88%
+epoch 10/20 | train loss 0.0010, digit 100.00%, image 100.00% | val loss 0.0017, digit 99.98%, image 99.88%
+epoch 11/20 | train loss 0.0009, digit 100.00%, image 100.00% | val loss 0.0018, digit 99.97%, image 99.84%
+epoch 12/20 | train loss 0.0008, digit 100.00%, image 100.00% | val loss 0.0016, digit 99.97%, image 99.86%
+epoch 13/20 | train loss 0.0007, digit 100.00%, image 100.00% | val loss 0.0015, digit 99.97%, image 99.86%
+epoch 14/20 | train loss 0.0007, digit 100.00%, image 100.00% | val loss 0.0014, digit 99.98%, image 99.88%
+epoch 15/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0014, digit 99.97%, image 99.84%
+epoch 16/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0014, digit 99.97%, image 99.86%
+epoch 17/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0014, digit 99.98%, image 99.88%
+epoch 18/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0014, digit 99.97%, image 99.84%
+epoch 19/20 | train loss 0.0006, digit 100.00%, image 100.00% | val loss 0.0014, digit 99.97%, image 99.84%
+epoch 20/20 | train loss 0.0005, digit 100.00%, image 100.00% | val loss 0.0013, digit 99.97%, image 99.86%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/noaug-10k/20261029-011213-90e87f95/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 99.80%, image 99.00%
+data/test/test4 digit 100.00%, image 100.00%
+== wd-0 (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.9549, digit 23.06%, image 0.20% | val loss 1.4345, digit 38.80%, image 0.66%
+epoch 02/20 | train loss 0.7635, digit 72.32%, image 28.47% | val loss 0.3932, digit 86.04%, image 47.24%
+epoch 03/20 | train loss 0.1007, digit 98.71%, image 93.87% | val loss 0.0443, digit 99.46%, image 97.44%
+epoch 04/20 | train loss 0.0423, digit 99.33%, image 96.78% | val loss 0.0486, digit 98.96%, image 94.96%
+epoch 05/20 | train loss 0.0289, digit 99.51%, image 97.59% | val loss 0.0988, digit 97.00%, image 85.90%
+epoch 06/20 | train loss 0.0221, digit 99.59%, image 98.01% | val loss 0.0292, digit 99.36%, image 96.88%
+epoch 07/20 | train loss 0.0166, digit 99.70%, image 98.56% | val loss 0.0140, digit 99.78%, image 98.88%
+epoch 08/20 | train loss 0.0103, digit 99.80%, image 99.01% | val loss 0.0075, digit 99.89%, image 99.44%
+epoch 09/20 | train loss 0.0085, digit 99.84%, image 99.19% | val loss 0.0049, digit 99.91%, image 99.56%
+epoch 10/20 | train loss 0.0097, digit 99.81%, image 99.08% | val loss 0.0051, digit 99.92%, image 99.58%
+epoch 11/20 | train loss 0.0068, digit 99.88%, image 99.41% | val loss 0.0071, digit 99.84%, image 99.24%
+epoch 12/20 | train loss 0.0053, digit 99.90%, image 99.50% | val loss 0.0024, digit 99.95%, image 99.76%
+epoch 13/20 | train loss 0.0051, digit 99.90%, image 99.49% | val loss 0.0027, digit 99.96%, image 99.82%
+epoch 14/20 | train loss 0.0031, digit 99.94%, image 99.70% | val loss 0.0014, digit 99.98%, image 99.92%
+epoch 15/20 | train loss 0.0021, digit 99.96%, image 99.81% | val loss 0.0015, digit 99.97%, image 99.86%
+epoch 16/20 | train loss 0.0032, digit 99.95%, image 99.75% | val loss 0.0013, digit 99.98%, image 99.88%
+epoch 17/20 | train loss 0.0019, digit 99.97%, image 99.85% | val loss 0.0010, digit 99.98%, image 99.90%
+epoch 18/20 | train loss 0.0017, digit 99.97%, image 99.84% | val loss 0.0010, digit 99.98%, image 99.88%
+epoch 19/20 | train loss 0.0014, digit 99.98%, image 99.91% | val loss 0.0010, digit 99.98%, image 99.90%
+epoch 20/20 | train loss 0.0013, digit 99.98%, image 99.91% | val loss 0.0010, digit 99.98%, image 99.88%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/wd-0/20261029-011508-1afec297/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== wd-0.01 (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.9557, digit 22.97%, image 0.22% | val loss 1.3962, digit 39.71%, image 0.82%
+epoch 02/20 | train loss 0.7653, digit 72.08%, image 30.12% | val loss 0.3068, digit 92.59%, image 67.66%
+epoch 03/20 | train loss 0.1068, digit 98.53%, image 92.99% | val loss 0.0418, digit 99.39%, image 97.00%
+epoch 04/20 | train loss 0.0454, digit 99.23%, image 96.33% | val loss 0.0885, digit 97.65%, image 88.90%
+epoch 05/20 | train loss 0.0290, digit 99.51%, image 97.61% | val loss 0.0643, digit 98.54%, image 93.00%
+epoch 06/20 | train loss 0.0265, digit 99.56%, image 97.89% | val loss 0.0273, digit 99.54%, image 97.74%
+epoch 07/20 | train loss 0.0132, digit 99.77%, image 98.90% | val loss 0.0185, digit 99.61%, image 98.08%
+epoch 08/20 | train loss 0.0123, digit 99.77%, image 98.89% | val loss 0.0071, digit 99.88%, image 99.38%
+epoch 09/20 | train loss 0.0091, digit 99.85%, image 99.30% | val loss 0.0042, digit 99.94%, image 99.68%
+epoch 10/20 | train loss 0.0073, digit 99.87%, image 99.38% | val loss 0.0060, digit 99.90%, image 99.52%
+epoch 11/20 | train loss 0.0076, digit 99.85%, image 99.29% | val loss 0.0044, digit 99.94%, image 99.68%
+epoch 12/20 | train loss 0.0055, digit 99.89%, image 99.47% | val loss 0.0074, digit 99.86%, image 99.30%
+epoch 13/20 | train loss 0.0062, digit 99.86%, image 99.31% | val loss 0.0035, digit 99.95%, image 99.74%
+epoch 14/20 | train loss 0.0032, digit 99.94%, image 99.69% | val loss 0.0017, digit 99.98%, image 99.90%
+epoch 15/20 | train loss 0.0025, digit 99.96%, image 99.83% | val loss 0.0016, digit 99.96%, image 99.82%
+epoch 16/20 | train loss 0.0029, digit 99.95%, image 99.77% | val loss 0.0013, digit 99.98%, image 99.90%
+epoch 17/20 | train loss 0.0018, digit 99.98%, image 99.89% | val loss 0.0010, digit 99.99%, image 99.94%
+epoch 18/20 | train loss 0.0015, digit 99.97%, image 99.87% | val loss 0.0009, digit 99.99%, image 99.94%
+epoch 19/20 | train loss 0.0015, digit 99.97%, image 99.86% | val loss 0.0008, digit 99.98%, image 99.92%
+epoch 20/20 | train loss 0.0012, digit 99.99%, image 99.94% | val loss 0.0008, digit 99.99%, image 99.96%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/wd-0.01/20261029-011805-867e4482/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== wd-0.1 (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.9528, digit 23.01%, image 0.17% | val loss 1.4358, digit 39.39%, image 0.98%
+epoch 02/20 | train loss 0.7543, digit 72.45%, image 31.24% | val loss 0.4000, digit 87.47%, image 51.12%
+epoch 03/20 | train loss 0.1129, digit 98.38%, image 92.19% | val loss 0.0876, digit 98.48%, image 92.62%
+epoch 04/20 | train loss 0.0439, digit 99.36%, image 96.88% | val loss 0.0399, digit 99.28%, image 96.50%
+epoch 05/20 | train loss 0.0276, digit 99.56%, image 97.85% | val loss 0.0230, digit 99.65%, image 98.26%
+epoch 06/20 | train loss 0.0272, digit 99.57%, image 97.91% | val loss 0.0195, digit 99.71%, image 98.58%
+epoch 07/20 | train loss 0.0181, digit 99.68%, image 98.46% | val loss 0.0285, digit 99.26%, image 96.36%
+epoch 08/20 | train loss 0.0130, digit 99.78%, image 98.88% | val loss 0.0089, digit 99.88%, image 99.40%
+epoch 09/20 | train loss 0.0118, digit 99.79%, image 99.00% | val loss 0.0408, digit 99.00%, image 95.12%
+epoch 10/20 | train loss 0.0101, digit 99.85%, image 99.25% | val loss 0.0081, digit 99.84%, image 99.22%
+epoch 11/20 | train loss 0.0084, digit 99.86%, image 99.34% | val loss 0.0077, digit 99.88%, image 99.38%
+epoch 12/20 | train loss 0.0059, digit 99.91%, image 99.59% | val loss 0.0032, digit 99.96%, image 99.82%
+epoch 13/20 | train loss 0.0054, digit 99.90%, image 99.53% | val loss 0.0023, digit 99.98%, image 99.90%
+epoch 14/20 | train loss 0.0035, digit 99.95%, image 99.77% | val loss 0.0021, digit 99.97%, image 99.86%
+epoch 15/20 | train loss 0.0023, digit 99.98%, image 99.92% | val loss 0.0014, digit 100.00%, image 99.98%
+epoch 16/20 | train loss 0.0030, digit 99.96%, image 99.81% | val loss 0.0013, digit 99.99%, image 99.96%
+epoch 17/20 | train loss 0.0027, digit 99.97%, image 99.85% | val loss 0.0014, digit 99.99%, image 99.94%
+epoch 18/20 | train loss 0.0021, digit 99.98%, image 99.88% | val loss 0.0014, digit 99.98%, image 99.92%
+epoch 19/20 | train loss 0.0019, digit 99.98%, image 99.91% | val loss 0.0013, digit 99.99%, image 99.94%
+epoch 20/20 | train loss 0.0017, digit 99.98%, image 99.91% | val loss 0.0012, digit 99.99%, image 99.94%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/wd-0.1/20261029-012102-e21fe375/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== lr-0.0001 (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.3030, digit 11.54%, image 0.00% | val loss 2.3237, digit 11.52%, image 0.00%
+epoch 02/20 | train loss 2.1454, digit 17.90%, image 0.01% | val loss 1.9904, digit 21.75%, image 0.02%
+epoch 03/20 | train loss 1.7799, digit 32.85%, image 0.33% | val loss 1.5251, digit 44.83%, image 1.18%
+epoch 04/20 | train loss 1.2459, digit 59.43%, image 6.72% | val loss 0.9284, digit 74.25%, image 18.28%
+epoch 05/20 | train loss 0.7336, digit 83.09%, image 38.72% | val loss 0.5373, digit 89.49%, image 56.12%
+epoch 06/20 | train loss 0.4143, digit 93.53%, image 71.27% | val loss 0.2695, digit 96.75%, image 84.84%
+epoch 07/20 | train loss 0.2447, digit 97.39%, image 87.85% | val loss 0.1975, digit 97.42%, image 87.72%
+epoch 08/20 | train loss 0.1627, digit 98.54%, image 92.86% | val loss 0.1246, digit 99.20%, image 96.12%
+epoch 09/20 | train loss 0.1158, digit 99.08%, image 95.61% | val loss 0.0852, digit 99.40%, image 97.14%
+epoch 10/20 | train loss 0.0908, digit 99.32%, image 96.69% | val loss 0.0714, digit 99.57%, image 97.88%
+epoch 11/20 | train loss 0.0750, digit 99.39%, image 97.03% | val loss 0.0567, digit 99.72%, image 98.64%
+epoch 12/20 | train loss 0.0622, digit 99.53%, image 97.69% | val loss 0.0456, digit 99.77%, image 98.86%
+epoch 13/20 | train loss 0.0538, digit 99.62%, image 98.20% | val loss 0.0416, digit 99.82%, image 99.08%
+epoch 14/20 | train loss 0.0470, digit 99.68%, image 98.40% | val loss 0.0395, digit 99.77%, image 98.86%
+epoch 15/20 | train loss 0.0440, digit 99.71%, image 98.57% | val loss 0.0354, digit 99.84%, image 99.18%
+epoch 16/20 | train loss 0.0415, digit 99.72%, image 98.62% | val loss 0.0322, digit 99.85%, image 99.24%
+epoch 17/20 | train loss 0.0396, digit 99.71%, image 98.56% | val loss 0.0314, digit 99.86%, image 99.30%
+epoch 18/20 | train loss 0.0379, digit 99.74%, image 98.76% | val loss 0.0308, digit 99.85%, image 99.24%
+epoch 19/20 | train loss 0.0373, digit 99.75%, image 98.78% | val loss 0.0302, digit 99.84%, image 99.18%
+epoch 20/20 | train loss 0.0367, digit 99.77%, image 98.87% | val loss 0.0300, digit 99.86%, image 99.30%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/lr-0.0001/20261029-012400-a23dbc28/checkpoints/best.pt
+data/test/test0 digit 99.60%, image 98.00%
+data/test/test1 digit 99.60%, image 98.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 99.20%, image 96.00%
+== lr-0.0003 (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.1902, digit 15.35%, image 0.01% | val loss 1.9529, digit 23.54%, image 0.02%
+epoch 02/20 | train loss 1.3545, digit 51.26%, image 7.18% | val loss 0.7820, digit 77.51%, image 24.64%
+epoch 03/20 | train loss 0.3703, digit 93.47%, image 72.17% | val loss 0.2087, digit 97.50%, image 88.20%
+epoch 04/20 | train loss 0.1068, digit 98.99%, image 95.17% | val loss 0.0764, digit 99.33%, image 96.78%
+epoch 05/20 | train loss 0.0527, digit 99.51%, image 97.57% | val loss 0.0464, digit 99.64%, image 98.28%
+epoch 06/20 | train loss 0.0423, digit 99.48%, image 97.54% | val loss 0.0325, digit 99.73%, image 98.70%
+epoch 07/20 | train loss 0.0255, digit 99.73%, image 98.65% | val loss 0.0300, digit 99.58%, image 97.92%
+epoch 08/20 | train loss 0.0210, digit 99.75%, image 98.78% | val loss 0.0224, digit 99.76%, image 98.84%
+epoch 09/20 | train loss 0.0139, digit 99.86%, image 99.31% | val loss 0.0133, digit 99.83%, image 99.14%
+epoch 10/20 | train loss 0.0135, digit 99.85%, image 99.27% | val loss 0.0108, digit 99.89%, image 99.48%
+epoch 11/20 | train loss 0.0109, digit 99.88%, image 99.42% | val loss 0.0091, digit 99.87%, image 99.34%
+epoch 12/20 | train loss 0.0084, digit 99.92%, image 99.59% | val loss 0.0096, digit 99.84%, image 99.20%
+epoch 13/20 | train loss 0.0084, digit 99.91%, image 99.58% | val loss 0.0059, digit 99.93%, image 99.66%
+epoch 14/20 | train loss 0.0067, digit 99.92%, image 99.59% | val loss 0.0076, digit 99.90%, image 99.52%
+epoch 15/20 | train loss 0.0054, digit 99.95%, image 99.76% | val loss 0.0049, digit 99.93%, image 99.64%
+epoch 16/20 | train loss 0.0058, digit 99.94%, image 99.72% | val loss 0.0045, digit 99.94%, image 99.72%
+epoch 17/20 | train loss 0.0048, digit 99.95%, image 99.75% | val loss 0.0040, digit 99.95%, image 99.74%
+epoch 18/20 | train loss 0.0048, digit 99.96%, image 99.80% | val loss 0.0039, digit 99.96%, image 99.80%
+epoch 19/20 | train loss 0.0041, digit 99.97%, image 99.83% | val loss 0.0038, digit 99.96%, image 99.78%
+epoch 20/20 | train loss 0.0042, digit 99.96%, image 99.80% | val loss 0.0037, digit 99.96%, image 99.82%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/lr-0.0003/20261029-012658-385f1a25/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== lr-0.003 (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.2974, digit 12.46%, image 0.02% | val loss 2.1245, digit 18.97%, image 0.00%
+epoch 02/20 | train loss 1.2739, digit 45.96%, image 4.12% | val loss 0.8528, digit 64.79%, image 9.36%
+epoch 03/20 | train loss 0.3043, digit 89.99%, image 63.01% | val loss 0.2002, digit 93.11%, image 70.06%
+epoch 04/20 | train loss 0.0634, digit 98.61%, image 93.36% | val loss 0.0720, digit 98.19%, image 91.32%
+epoch 05/20 | train loss 0.0331, digit 99.32%, image 96.70% | val loss 0.0174, digit 99.68%, image 98.40%
+epoch 06/20 | train loss 0.0273, digit 99.40%, image 97.10% | val loss 0.0363, digit 99.14%, image 95.82%
+epoch 07/20 | train loss 0.0179, digit 99.62%, image 98.15% | val loss 0.0634, digit 98.40%, image 93.00%
+epoch 08/20 | train loss 0.0162, digit 99.65%, image 98.28% | val loss 0.0240, digit 99.49%, image 97.48%
+epoch 09/20 | train loss 0.0130, digit 99.70%, image 98.54% | val loss 0.0138, digit 99.68%, image 98.38%
+epoch 10/20 | train loss 0.0117, digit 99.77%, image 98.88% | val loss 0.0022, digit 99.97%, image 99.84%
+epoch 11/20 | train loss 0.0045, digit 99.91%, image 99.55% | val loss 0.0054, digit 99.91%, image 99.56%
+epoch 12/20 | train loss 0.0055, digit 99.88%, image 99.43% | val loss 0.0024, digit 99.94%, image 99.70%
+epoch 13/20 | train loss 0.0050, digit 99.90%, image 99.53% | val loss 0.0017, digit 99.97%, image 99.84%
+epoch 14/20 | train loss 0.0021, digit 99.96%, image 99.82% | val loss 0.0007, digit 99.99%, image 99.96%
+epoch 15/20 | train loss 0.0024, digit 99.95%, image 99.75% | val loss 0.0008, digit 99.98%, image 99.88%
+epoch 16/20 | train loss 0.0032, digit 99.94%, image 99.70% | val loss 0.0007, digit 99.99%, image 99.94%
+epoch 17/20 | train loss 0.0016, digit 99.97%, image 99.85% | val loss 0.0007, digit 99.99%, image 99.96%
+epoch 18/20 | train loss 0.0009, digit 99.99%, image 99.94% | val loss 0.0006, digit 99.99%, image 99.96%
+epoch 19/20 | train loss 0.0013, digit 99.97%, image 99.86% | val loss 0.0006, digit 99.99%, image 99.94%
+epoch 20/20 | train loss 0.0009, digit 99.98%, image 99.91% | val loss 0.0006, digit 99.99%, image 99.96%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/lr-0.003/20261029-012956-b85e7dfc/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== lr-0.01 (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.3754, digit 10.46%, image 0.01% | val loss 2.2994, digit 11.35%, image 0.00%
+epoch 02/20 | train loss 2.2558, digit 13.75%, image 0.02% | val loss 2.9174, digit 10.06%, image 0.00%
+epoch 03/20 | train loss 1.6725, digit 33.07%, image 0.82% | val loss 2.2228, digit 33.08%, image 0.24%
+epoch 04/20 | train loss 0.6746, digit 72.46%, image 24.73% | val loss 0.4145, digit 85.19%, image 44.16%
+epoch 05/20 | train loss 0.1689, digit 94.89%, image 77.73% | val loss 0.1142, digit 96.79%, image 84.90%
+epoch 06/20 | train loss 0.0691, digit 98.24%, image 91.82% | val loss 0.0436, digit 98.86%, image 94.60%
+epoch 07/20 | train loss 0.0429, digit 99.00%, image 95.27% | val loss 0.0807, digit 97.78%, image 89.70%
+epoch 08/20 | train loss 0.0291, digit 99.30%, image 96.60% | val loss 0.0227, digit 99.44%, image 97.26%
+epoch 09/20 | train loss 0.0190, digit 99.54%, image 97.78% | val loss 0.0117, digit 99.74%, image 98.70%
+epoch 10/20 | train loss 0.0165, digit 99.63%, image 98.17% | val loss 0.0856, digit 97.76%, image 89.26%
+epoch 11/20 | train loss 0.0202, digit 99.54%, image 97.78% | val loss 0.0234, digit 99.48%, image 97.48%
+epoch 12/20 | train loss 0.0079, digit 99.84%, image 99.21% | val loss 0.0054, digit 99.90%, image 99.48%
+epoch 13/20 | train loss 0.0056, digit 99.88%, image 99.42% | val loss 0.0031, digit 99.94%, image 99.70%
+epoch 14/20 | train loss 0.0030, digit 99.93%, image 99.63% | val loss 0.0023, digit 99.95%, image 99.76%
+epoch 15/20 | train loss 0.0034, digit 99.92%, image 99.61% | val loss 0.0022, digit 99.96%, image 99.82%
+epoch 16/20 | train loss 0.0039, digit 99.93%, image 99.69% | val loss 0.0017, digit 99.96%, image 99.82%
+epoch 17/20 | train loss 0.0024, digit 99.94%, image 99.72% | val loss 0.0013, digit 99.98%, image 99.88%
+epoch 18/20 | train loss 0.0022, digit 99.95%, image 99.78% | val loss 0.0016, digit 99.98%, image 99.88%
+epoch 19/20 | train loss 0.0019, digit 99.95%, image 99.75% | val loss 0.0013, digit 99.97%, image 99.86%
+epoch 20/20 | train loss 0.0014, digit 99.97%, image 99.86% | val loss 0.0013, digit 99.97%, image 99.86%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/lr-0.01/20261029-013253-5ab88f5e/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== resnet34-10k (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.0312, digit 20.79%, image 0.13% | val loss 1.7646, digit 30.21%, image 0.20%
+epoch 02/20 | train loss 0.8601, digit 64.29%, image 14.86% | val loss 0.4416, digit 85.48%, image 43.68%
+epoch 03/20 | train loss 0.2746, digit 91.54%, image 65.82% | val loss 0.2103, digit 92.45%, image 67.16%
+epoch 04/20 | train loss 0.0684, digit 98.78%, image 94.17% | val loss 0.1003, digit 97.43%, image 88.00%
+epoch 05/20 | train loss 0.0400, digit 99.28%, image 96.55% | val loss 0.0290, digit 99.53%, image 97.68%
+epoch 06/20 | train loss 0.0283, digit 99.48%, image 97.48% | val loss 0.0177, digit 99.65%, image 98.28%
+epoch 07/20 | train loss 0.0213, digit 99.59%, image 98.00% | val loss 0.0154, digit 99.72%, image 98.60%
+epoch 08/20 | train loss 0.0174, digit 99.66%, image 98.34% | val loss 0.0100, digit 99.81%, image 99.04%
+epoch 09/20 | train loss 0.0113, digit 99.79%, image 98.98% | val loss 0.0695, digit 98.05%, image 90.68%
+epoch 10/20 | train loss 0.0169, digit 99.68%, image 98.49% | val loss 0.1347, digit 96.34%, image 82.86%
+epoch 11/20 | train loss 0.0116, digit 99.74%, image 98.74% | val loss 0.0064, digit 99.87%, image 99.36%
+epoch 12/20 | train loss 0.0067, digit 99.88%, image 99.47% | val loss 0.0032, digit 99.93%, image 99.66%
+epoch 13/20 | train loss 0.0048, digit 99.91%, image 99.58% | val loss 0.0025, digit 99.96%, image 99.78%
+epoch 14/20 | train loss 0.0051, digit 99.91%, image 99.59% | val loss 0.0025, digit 99.95%, image 99.74%
+epoch 15/20 | train loss 0.0039, digit 99.92%, image 99.64% | val loss 0.0025, digit 99.96%, image 99.82%
+epoch 16/20 | train loss 0.0030, digit 99.95%, image 99.78% | val loss 0.0011, digit 99.98%, image 99.92%
+epoch 17/20 | train loss 0.0027, digit 99.95%, image 99.76% | val loss 0.0012, digit 99.98%, image 99.88%
+epoch 18/20 | train loss 0.0028, digit 99.96%, image 99.80% | val loss 0.0012, digit 99.98%, image 99.90%
+epoch 19/20 | train loss 0.0027, digit 99.95%, image 99.77% | val loss 0.0010, digit 99.98%, image 99.92%
+epoch 20/20 | train loss 0.0024, digit 99.96%, image 99.84% | val loss 0.0010, digit 99.98%, image 99.90%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/resnet34-10k/20261029-013550-38c97a43/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== captcha18-10k (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.8746, digit 10.21%, image 0.00% | val loss 2.7033, digit 9.92%, image 0.00%
+epoch 02/20 | train loss 2.3034, digit 11.42%, image 0.01% | val loss 2.4289, digit 13.96%, image 0.00%
+epoch 03/20 | train loss 1.7835, digit 27.42%, image 0.34% | val loss 3.2637, digit 15.79%, image 0.00%
+epoch 04/20 | train loss 0.9188, digit 65.74%, image 19.11% | val loss 0.5405, digit 82.00%, image 37.56%
+epoch 05/20 | train loss 0.2944, digit 91.05%, image 67.14% | val loss 0.1255, digit 96.30%, image 83.56%
+epoch 06/20 | train loss 0.1063, digit 96.96%, image 87.05% | val loss 0.0957, digit 97.26%, image 87.24%
+epoch 07/20 | train loss 0.0503, digit 98.63%, image 93.69% | val loss 0.0594, digit 98.20%, image 91.38%
+epoch 08/20 | train loss 0.0319, digit 99.16%, image 96.08% | val loss 0.0283, digit 99.27%, image 96.46%
+epoch 09/20 | train loss 0.0194, digit 99.48%, image 97.59% | val loss 0.0230, digit 99.48%, image 97.50%
+epoch 10/20 | train loss 0.0150, digit 99.64%, image 98.28% | val loss 0.0156, digit 99.56%, image 97.90%
+epoch 11/20 | train loss 0.0106, digit 99.73%, image 98.67% | val loss 0.0099, digit 99.71%, image 98.66%
+epoch 12/20 | train loss 0.0069, digit 99.81%, image 99.09% | val loss 0.0046, digit 99.88%, image 99.48%
+epoch 13/20 | train loss 0.0055, digit 99.85%, image 99.26% | val loss 0.0056, digit 99.86%, image 99.32%
+epoch 14/20 | train loss 0.0041, digit 99.91%, image 99.54% | val loss 0.0045, digit 99.89%, image 99.50%
+epoch 15/20 | train loss 0.0038, digit 99.91%, image 99.58% | val loss 0.0037, digit 99.88%, image 99.42%
+epoch 16/20 | train loss 0.0032, digit 99.93%, image 99.64% | val loss 0.0021, digit 99.92%, image 99.64%
+epoch 17/20 | train loss 0.0022, digit 99.95%, image 99.73% | val loss 0.0019, digit 99.94%, image 99.72%
+epoch 18/20 | train loss 0.0017, digit 99.96%, image 99.80% | val loss 0.0016, digit 99.96%, image 99.80%
+epoch 19/20 | train loss 0.0014, digit 99.97%, image 99.84% | val loss 0.0015, digit 99.97%, image 99.86%
+epoch 20/20 | train loss 0.0016, digit 99.96%, image 99.82% | val loss 0.0015, digit 99.96%, image 99.84%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/captcha18-10k/20261029-013953-fddbe751/checkpoints/best.pt
+data/test/test0 digit 99.60%, image 98.00%
+data/test/test1 digit 99.60%, image 98.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== captcha34-10k (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 3.0176, digit 10.04%, image 0.00% | val loss 108.1818, digit 10.31%, image 0.00%
+epoch 02/20 | train loss 2.3348, digit 10.14%, image 0.00% | val loss 2.3286, digit 10.06%, image 0.00%
+epoch 03/20 | train loss 2.3157, digit 9.81%, image 0.00% | val loss 2.3043, digit 9.89%, image 0.00%
+epoch 04/20 | train loss 2.3058, digit 10.34%, image 0.00% | val loss 2.3130, digit 10.43%, image 0.00%
+epoch 05/20 | train loss 2.0394, digit 19.33%, image 0.06% | val loss 1.6687, digit 28.90%, image 0.12%
+epoch 06/20 | train loss 1.2282, digit 49.66%, image 5.37% | val loss 1.2279, digit 54.82%, image 4.82%
+epoch 07/20 | train loss 0.4577, digit 84.14%, image 49.13% | val loss 0.8371, digit 77.67%, image 28.04%
+epoch 08/20 | train loss 0.1119, digit 96.88%, image 86.24% | val loss 0.0998, digit 97.43%, image 88.76%
+epoch 09/20 | train loss 0.0627, digit 98.32%, image 92.30% | val loss 0.0926, digit 97.43%, image 88.08%
+epoch 10/20 | train loss 0.0294, digit 99.22%, image 96.25% | val loss 0.0468, digit 98.79%, image 94.22%
+epoch 11/20 | train loss 0.0206, digit 99.47%, image 97.45% | val loss 0.0115, digit 99.72%, image 98.66%
+epoch 12/20 | train loss 0.0174, digit 99.52%, image 97.67% | val loss 0.0076, digit 99.81%, image 99.08%
+epoch 13/20 | train loss 0.0147, digit 99.59%, image 98.06% | val loss 0.0315, digit 99.27%, image 96.54%
+epoch 14/20 | train loss 0.0082, digit 99.77%, image 98.89% | val loss 0.0082, digit 99.80%, image 99.04%
+epoch 15/20 | train loss 0.0066, digit 99.83%, image 99.16% | val loss 0.0058, digit 99.87%, image 99.36%
+epoch 16/20 | train loss 0.0053, digit 99.85%, image 99.25% | val loss 0.0099, digit 99.77%, image 98.88%
+epoch 17/20 | train loss 0.0046, digit 99.88%, image 99.40% | val loss 0.0063, digit 99.84%, image 99.22%
+epoch 18/20 | train loss 0.0033, digit 99.92%, image 99.59% | val loss 0.0047, digit 99.85%, image 99.24%
+epoch 19/20 | train loss 0.0023, digit 99.94%, image 99.70% | val loss 0.0049, digit 99.87%, image 99.34%
+epoch 20/20 | train loss 0.0026, digit 99.93%, image 99.68% | val loss 0.0049, digit 99.86%, image 99.32%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/captcha34-10k/20261029-014252-c15cd232/checkpoints/best.pt
+data/test/test0 digit 99.60%, image 98.00%
+data/test/test1 digit 99.60%, image 98.00%
+data/test/test2 digit 99.40%, image 98.00%
+data/test/test3 digit 99.60%, image 98.00%
+data/test/test4 digit 99.80%, image 99.00%
+### END ablate seed 44 01:46:57
+### START bsx seed 44 01:46:57
+== bsx16-10k (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.7678, digit 29.78%, image 0.88% | val loss 1.2369, digit 48.56%, image 1.98%
+epoch 02/20 | train loss 0.4905, digit 82.28%, image 47.29% | val loss 0.0729, digit 98.93%, image 94.82%
+epoch 03/20 | train loss 0.0834, digit 98.29%, image 91.81% | val loss 0.0730, digit 97.90%, image 90.00%
+epoch 04/20 | train loss 0.0518, digit 98.84%, image 94.50% | val loss 0.0109, digit 99.78%, image 98.90%
+epoch 05/20 | train loss 0.0299, digit 99.38%, image 97.00% | val loss 0.0454, digit 98.85%, image 94.42%
+epoch 06/20 | train loss 0.0297, digit 99.35%, image 96.87% | val loss 0.0080, digit 99.83%, image 99.14%
+epoch 07/20 | train loss 0.0263, digit 99.42%, image 97.21% | val loss 0.0124, digit 99.68%, image 98.44%
+epoch 08/20 | train loss 0.0215, digit 99.49%, image 97.53% | val loss 0.0055, digit 99.88%, image 99.38%
+epoch 09/20 | train loss 0.0174, digit 99.62%, image 98.13% | val loss 0.0029, digit 99.92%, image 99.62%
+epoch 10/20 | train loss 0.0106, digit 99.78%, image 98.89% | val loss 0.0083, digit 99.82%, image 99.16%
+epoch 11/20 | train loss 0.0140, digit 99.71%, image 98.67% | val loss 0.0014, digit 99.98%, image 99.90%
+epoch 12/20 | train loss 0.0077, digit 99.84%, image 99.21% | val loss 0.0016, digit 99.98%, image 99.88%
+epoch 13/20 | train loss 0.0047, digit 99.90%, image 99.48% | val loss 0.0020, digit 99.95%, image 99.76%
+epoch 14/20 | train loss 0.0045, digit 99.90%, image 99.50% | val loss 0.0013, digit 99.98%, image 99.90%
+epoch 15/20 | train loss 0.0027, digit 99.95%, image 99.77% | val loss 0.0019, digit 99.96%, image 99.78%
+epoch 16/20 | train loss 0.0029, digit 99.94%, image 99.72% | val loss 0.0016, digit 99.96%, image 99.82%
+epoch 17/20 | train loss 0.0021, digit 99.96%, image 99.79% | val loss 0.0016, digit 99.96%, image 99.84%
+epoch 18/20 | train loss 0.0025, digit 99.95%, image 99.79% | val loss 0.0004, digit 99.98%, image 99.92%
+epoch 19/20 | train loss 0.0014, digit 99.97%, image 99.86% | val loss 0.0002, digit 99.99%, image 99.96%
+epoch 20/20 | train loss 0.0015, digit 99.97%, image 99.83% | val loss 0.0001, digit 100.00%, image 100.00%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx16-10k/20261029-014659-6536dacc/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== bsx32-10k (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.9009, digit 25.12%, image 0.44% | val loss 1.7536, digit 35.74%, image 0.38%
+epoch 02/20 | train loss 0.5291, digit 81.90%, image 48.87% | val loss 0.2670, digit 91.78%, image 65.22%
+epoch 03/20 | train loss 0.0772, digit 98.65%, image 93.57% | val loss 0.0806, digit 98.06%, image 90.66%
+epoch 04/20 | train loss 0.0341, digit 99.41%, image 97.09% | val loss 0.0958, digit 97.71%, image 89.14%
+epoch 05/20 | train loss 0.0336, digit 99.33%, image 96.81% | val loss 0.0280, digit 99.32%, image 96.68%
+epoch 06/20 | train loss 0.0220, digit 99.55%, image 97.85% | val loss 0.0125, digit 99.70%, image 98.54%
+epoch 07/20 | train loss 0.0166, digit 99.67%, image 98.36% | val loss 0.0067, digit 99.86%, image 99.34%
+epoch 08/20 | train loss 0.0163, digit 99.63%, image 98.24% | val loss 0.0050, digit 99.94%, image 99.68%
+epoch 09/20 | train loss 0.0138, digit 99.72%, image 98.66% | val loss 0.0034, digit 99.95%, image 99.74%
+epoch 10/20 | train loss 0.0065, digit 99.87%, image 99.36% | val loss 0.0039, digit 99.92%, image 99.60%
+epoch 11/20 | train loss 0.0100, digit 99.79%, image 99.00% | val loss 0.0025, digit 99.96%, image 99.78%
+epoch 12/20 | train loss 0.0054, digit 99.89%, image 99.49% | val loss 0.0014, digit 99.98%, image 99.88%
+epoch 13/20 | train loss 0.0036, digit 99.94%, image 99.71% | val loss 0.0012, digit 99.98%, image 99.92%
+epoch 14/20 | train loss 0.0048, digit 99.90%, image 99.52% | val loss 0.0017, digit 99.96%, image 99.80%
+epoch 15/20 | train loss 0.0030, digit 99.95%, image 99.78% | val loss 0.0014, digit 99.97%, image 99.84%
+epoch 16/20 | train loss 0.0016, digit 99.97%, image 99.85% | val loss 0.0007, digit 99.99%, image 99.94%
+epoch 17/20 | train loss 0.0014, digit 99.97%, image 99.87% | val loss 0.0004, digit 99.99%, image 99.94%
+epoch 18/20 | train loss 0.0013, digit 99.97%, image 99.88% | val loss 0.0005, digit 99.99%, image 99.96%
+epoch 19/20 | train loss 0.0012, digit 99.98%, image 99.91% | val loss 0.0004, digit 100.00%, image 99.98%
+epoch 20/20 | train loss 0.0008, digit 99.99%, image 99.95% | val loss 0.0003, digit 100.00%, image 99.98%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx32-10k/20261029-015054-e02cdb43/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 99.80%, image 99.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== bsx64-10k (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 1.9532, digit 23.19%, image 0.20% | val loss 1.6079, digit 33.26%, image 0.32%
+epoch 02/20 | train loss 0.7659, digit 72.31%, image 27.95% | val loss 0.6729, digit 73.35%, image 22.04%
+epoch 03/20 | train loss 0.1207, digit 98.19%, image 91.48% | val loss 0.1423, digit 95.82%, image 80.80%
+epoch 04/20 | train loss 0.0395, digit 99.49%, image 97.52% | val loss 0.0856, digit 97.80%, image 89.52%
+epoch 05/20 | train loss 0.0275, digit 99.57%, image 97.90% | val loss 0.0224, digit 99.57%, image 97.88%
+epoch 06/20 | train loss 0.0212, digit 99.65%, image 98.31% | val loss 0.0209, digit 99.63%, image 98.20%
+epoch 07/20 | train loss 0.0152, digit 99.72%, image 98.65% | val loss 0.0301, digit 99.24%, image 96.30%
+epoch 08/20 | train loss 0.0134, digit 99.75%, image 98.79% | val loss 0.0092, digit 99.86%, image 99.28%
+epoch 09/20 | train loss 0.0107, digit 99.80%, image 99.05% | val loss 0.0077, digit 99.86%, image 99.28%
+epoch 10/20 | train loss 0.0081, digit 99.85%, image 99.26% | val loss 0.0095, digit 99.82%, image 99.12%
+epoch 11/20 | train loss 0.0066, digit 99.87%, image 99.34% | val loss 0.0054, digit 99.89%, image 99.44%
+epoch 12/20 | train loss 0.0062, digit 99.88%, image 99.39% | val loss 0.0025, digit 99.97%, image 99.84%
+epoch 13/20 | train loss 0.0052, digit 99.90%, image 99.53% | val loss 0.0027, digit 99.95%, image 99.74%
+epoch 14/20 | train loss 0.0026, digit 99.96%, image 99.80% | val loss 0.0016, digit 99.97%, image 99.86%
+epoch 15/20 | train loss 0.0022, digit 99.96%, image 99.79% | val loss 0.0016, digit 99.97%, image 99.84%
+epoch 16/20 | train loss 0.0032, digit 99.95%, image 99.75% | val loss 0.0010, digit 99.98%, image 99.88%
+epoch 17/20 | train loss 0.0020, digit 99.97%, image 99.83% | val loss 0.0010, digit 99.98%, image 99.92%
+epoch 18/20 | train loss 0.0014, digit 99.98%, image 99.92% | val loss 0.0008, digit 100.00%, image 99.98%
+epoch 19/20 | train loss 0.0012, digit 99.99%, image 99.94% | val loss 0.0007, digit 100.00%, image 99.98%
+epoch 20/20 | train loss 0.0012, digit 99.99%, image 99.93% | val loss 0.0007, digit 100.00%, image 99.98%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx64-10k/20261029-015359-75135f9d/checkpoints/best.pt
+data/test/test0 digit 99.80%, image 99.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 99.80%, image 99.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+== bsx128-10k (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.1809, digit 16.21%, image 0.02% | val loss 2.1905, digit 20.85%, image 0.02%
+epoch 02/20 | train loss 1.2850, digit 52.08%, image 7.12% | val loss 1.2600, digit 53.00%, image 3.62%
+epoch 03/20 | train loss 0.3085, digit 93.54%, image 72.95% | val loss 0.1349, digit 98.16%, image 91.08%
+epoch 04/20 | train loss 0.0712, digit 99.15%, image 95.83% | val loss 0.0416, digit 99.48%, image 97.46%
+epoch 05/20 | train loss 0.0382, digit 99.47%, image 97.41% | val loss 0.2373, digit 92.24%, image 69.82%
+epoch 06/20 | train loss 0.0225, digit 99.70%, image 98.53% | val loss 0.0308, digit 99.56%, image 97.86%
+epoch 07/20 | train loss 0.0187, digit 99.72%, image 98.63% | val loss 0.0268, digit 99.46%, image 97.40%
+epoch 08/20 | train loss 0.0155, digit 99.73%, image 98.66% | val loss 0.0137, digit 99.86%, image 99.32%
+epoch 09/20 | train loss 0.0101, digit 99.87%, image 99.34% | val loss 0.0224, digit 99.52%, image 97.62%
+epoch 10/20 | train loss 0.0080, digit 99.89%, image 99.43% | val loss 0.0066, digit 99.92%, image 99.62%
+epoch 11/20 | train loss 0.0067, digit 99.90%, image 99.53% | val loss 0.0110, digit 99.81%, image 99.08%
+epoch 12/20 | train loss 0.0086, digit 99.83%, image 99.16% | val loss 0.0099, digit 99.81%, image 99.14%
+epoch 13/20 | train loss 0.0052, digit 99.92%, image 99.61% | val loss 0.0031, digit 99.96%, image 99.82%
+epoch 14/20 | train loss 0.0035, digit 99.96%, image 99.79% | val loss 0.0032, digit 99.97%, image 99.84%
+epoch 15/20 | train loss 0.0030, digit 99.97%, image 99.87% | val loss 0.0034, digit 99.94%, image 99.72%
+epoch 16/20 | train loss 0.0027, digit 99.97%, image 99.85% | val loss 0.0023, digit 99.98%, image 99.90%
+epoch 17/20 | train loss 0.0027, digit 99.97%, image 99.85% | val loss 0.0020, digit 99.98%, image 99.88%
+epoch 18/20 | train loss 0.0022, digit 99.98%, image 99.89% | val loss 0.0022, digit 99.98%, image 99.88%
+epoch 19/20 | train loss 0.0022, digit 99.98%, image 99.89% | val loss 0.0021, digit 99.98%, image 99.88%
+epoch 20/20 | train loss 0.0025, digit 99.96%, image 99.82% | val loss 0.0020, digit 99.98%, image 99.88%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx128-10k/20261029-015657-9dc8b87e/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 99.80%, image 99.00%
+== bsx256-10k (seed 44) on DESKTOP-EMJ6ESS
+device: cuda
+training images: 10000
+validation images: 5000
+epoch 01/20 | train loss 2.2624, digit 13.55%, image 0.01% | val loss 2.9718, digit 10.93%, image 0.00%
+epoch 02/20 | train loss 1.7179, digit 34.50%, image 0.79% | val loss 1.6071, digit 37.17%, image 0.46%
+epoch 03/20 | train loss 0.7726, digit 77.47%, image 30.72% | val loss 0.6484, digit 78.82%, image 28.14%
+epoch 04/20 | train loss 0.2253, digit 96.56%, image 84.36% | val loss 0.2381, digit 94.25%, image 74.58%
+epoch 05/20 | train loss 0.0831, digit 99.03%, image 95.30% | val loss 0.0698, digit 99.43%, image 97.20%
+epoch 06/20 | train loss 0.0389, digit 99.61%, image 98.06% | val loss 0.0437, digit 99.38%, image 96.98%
+epoch 07/20 | train loss 0.0232, digit 99.77%, image 98.87% | val loss 0.0247, digit 99.70%, image 98.50%
+epoch 08/20 | train loss 0.0191, digit 99.80%, image 99.01% | val loss 0.0336, digit 99.65%, image 98.26%
+epoch 09/20 | train loss 0.0178, digit 99.76%, image 98.82% | val loss 0.0235, digit 99.58%, image 97.98%
+epoch 10/20 | train loss 0.0127, digit 99.86%, image 99.32% | val loss 0.0179, digit 99.76%, image 98.82%
+epoch 11/20 | train loss 0.0102, digit 99.88%, image 99.42% | val loss 0.0121, digit 99.88%, image 99.42%
+epoch 12/20 | train loss 0.0079, digit 99.92%, image 99.59% | val loss 0.0091, digit 99.91%, image 99.56%
+epoch 13/20 | train loss 0.0064, digit 99.96%, image 99.78% | val loss 0.0061, digit 99.94%, image 99.68%
+epoch 14/20 | train loss 0.0062, digit 99.93%, image 99.66% | val loss 0.0059, digit 99.95%, image 99.74%
+epoch 15/20 | train loss 0.0052, digit 99.96%, image 99.83% | val loss 0.0054, digit 99.96%, image 99.78%
+epoch 16/20 | train loss 0.0050, digit 99.95%, image 99.74% | val loss 0.0051, digit 99.96%, image 99.78%
+epoch 17/20 | train loss 0.0046, digit 99.97%, image 99.84% | val loss 0.0045, digit 99.97%, image 99.84%
+epoch 18/20 | train loss 0.0044, digit 99.96%, image 99.81% | val loss 0.0044, digit 99.96%, image 99.82%
+epoch 19/20 | train loss 0.0042, digit 99.96%, image 99.81% | val loss 0.0043, digit 99.96%, image 99.78%
+epoch 20/20 | train loss 0.0042, digit 99.97%, image 99.84% | val loss 0.0042, digit 99.96%, image 99.80%
+checkpoint: /home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/bsx256-10k/20261029-020006-ef57242c/checkpoints/best.pt
+data/test/test0 digit 100.00%, image 100.00%
+data/test/test1 digit 100.00%, image 100.00%
+data/test/test2 digit 100.00%, image 100.00%
+data/test/test3 digit 100.00%, image 100.00%
+data/test/test4 digit 100.00%, image 100.00%
+### END bsx seed 44 02:03:33
+### ALL DONE

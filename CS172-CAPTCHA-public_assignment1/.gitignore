@@ -31,8 +31,9 @@ dist/
 /data/*
 !/data/test/
 
-# Training logs
-/outputs
+# Training outputs: keep config/metrics/evaluation json, drop checkpoints and tensorboard
+/outputs/**/checkpoints/
+/outputs/**/tensorboard/
 
 # Excluded from the student release
 /src/

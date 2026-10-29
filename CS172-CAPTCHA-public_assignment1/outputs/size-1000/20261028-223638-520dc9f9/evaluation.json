@@ -1,0 +1,37 @@
+{
+  "checkpoint": "/home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-1000/20261028-223638-520dc9f9/checkpoints/best.pt",
+  "config": "/home/wenbo/CS172/CS172-CAPTCHA-public_assignment1/outputs/size-1000/20261028-223638-520dc9f9/config.json",
+  "model": "resnet18",
+  "image_size": [
+    80,
+    260
+  ],
+  "device": "cuda",
+  "results": {
+    "data/test/test0": {
+      "num_images": 100,
+      "digit_acc": 0.74,
+      "image_acc": 0.16
+    },
+    "data/test/test1": {
+      "num_images": 100,
+      "digit_acc": 0.732,
+      "image_acc": 0.16
+    },
+    "data/test/test2": {
+      "num_images": 100,
+      "digit_acc": 0.752,
+      "image_acc": 0.18
+    },
+    "data/test/test3": {
+      "num_images": 100,
+      "digit_acc": 0.744,
+      "image_acc": 0.21
+    },
+    "data/test/test4": {
+      "num_images": 100,
+      "digit_acc": 0.778,
+      "image_acc": 0.27
+    }
+  }
+}
